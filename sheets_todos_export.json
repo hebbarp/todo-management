@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "description": "Review quarterly budget",
+    "status": "Pending",
+    "date_added": "2025-07-30",
+    "due_date": "2025-02-15",
+    "priority": "High",
+    "notes": "Finance review"
+  },
+  {
+    "id": "2",
+    "description": "Call investor meeting",
+    "status": "Completed",
+    "date_added": "2025-07-30",
+    "due_date": "2025-02-10",
+    "priority": "High",
+    "notes": "Important call"
+  },
+  {
+    "id": "3",
+    "description": "Update website content",
+    "status": "Pending",
+    "date_added": "2025-07-30",
+    "due_date": "2025-02-20",
+    "priority": "Medium",
+    "notes": "Marketing task"
+  },
+  {
+    "id": "4",
+    "description": "Plan team outing",
+    "status": "Pending",
+    "date_added": "2025-07-30",
+    "due_date": "2025-02-25",
+    "priority": "Low",
+    "notes": "HR task"
+  }
+]

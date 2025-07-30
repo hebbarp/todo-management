@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Management System - Download</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 3rem;
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .download-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .download-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .download-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .platform-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        
+        .download-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        
+        .download-card p {
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        
+        .features {
+            background: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 2rem;
+        }
+        
+        .features h2 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .feature h4 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .setup-guide {
+            background: rgba(255,255,255,0.1);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .setup-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .step {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+        }
+        
+        .step-number {
+            background: white;
+            color: #667eea;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin: 0 auto 1rem auto;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            opacity: 0.8;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .download-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Todo Management System</h1>
+            <p>AI-powered productivity automation for executives and developers. Download, setup, and start automating your tasks in minutes.</p>
+        </div>
+        
+        <div class="download-grid">
+            <div class="download-card">
+                <div class="platform-icon">🪟</div>
+                <h3>Windows Package</h3>
+                <p>Complete package with batch scripts, Python integration, and one-click setup for Windows 10/11.</p>
+                <a href="packages/todo-management-windows.zip" class="download-btn">Download for Windows</a>
+                <p style="margin-top: 1rem; font-size: 0.9rem; color: #888;">Includes: .bat scripts, setup guide, examples</p>
+            </div>
+            
+            <div class="download-card">
+                <div class="platform-icon">🍎</div>
+                <h3>macOS Package</h3>
+                <p>Optimized for macOS with shell scripts, Python integration, and Terminal automation.</p>
+                <a href="packages/todo-management-macos.zip" class="download-btn">Download for macOS</a>
+                <p style="margin-top: 1rem; font-size: 0.9rem; color: #888;">Includes: .sh scripts, setup guide, examples</p>
+            </div>
+            
+            <div class="download-card">
+                <div class="platform-icon">🐧</div>
+                <h3>Linux Package</h3>
+                <p>Full Linux support with shell scripts, Python automation, and command-line tools.</p>
+                <a href="packages/todo-management-linux.zip" class="download-btn">Download for Linux</a>
+                <p style="margin-top: 1rem; font-size: 0.9rem; color: #888;">Includes: .sh scripts, setup guide, examples</p>
+            </div>
+        </div>
+        
+        <div class="features">
+            <h2>What's Included</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">📱</div>
+                    <h4>WhatsApp Integration</h4>
+                    <p>Send todos via WhatsApp messages and get automated responses.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">📧</div>
+                    <h4>Email Processing</h4>
+                    <p>Email todos to the system and receive status updates automatically.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">📊</div>
+                    <h4>Google Sheets Sync</h4>
+                    <p>Manage todos in Google Sheets with real-time synchronization.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">⚙️</div>
+                    <h4>Automation Scripts</h4>
+                    <p>Pre-built scripts for cleanup, analytics, and task execution.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">🔒</div>
+                    <h4>Secure Configuration</h4>
+                    <p>Environment-based configuration with API key templates.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">📚</div>
+                    <h4>Complete Documentation</h4>
+                    <p>Step-by-step guides, examples, and troubleshooting help.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="setup-guide">
+            <h2>Quick Setup (5 Minutes)</h2>
+            <div class="setup-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h4>Download</h4>
+                    <p>Choose your platform and download the zip package</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h4>Extract</h4>
+                    <p>Unzip to your preferred location (e.g., Desktop)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h4>Configure</h4>
+                    <p>Edit .env file with your API keys (guide included)</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h4>Test</h4>
+                    <p>Run check-todos script to verify everything works</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 Knobly-C9ai Todo Management System | Built for Executives and Developers</p>
+            <p>Questions? Visit our <a href="https://github.com/hebbarp/todo-management" style="color: #fff;">GitHub repository</a></p>
+        </div>
+    </div>
+</body>
+</html>
