@@ -94,6 +94,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+analytics_env/
+yahoo_finance_env/
 
 # IDEs
 .vscode/
