@@ -1,0 +1,805 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+\usepackage{fontspec}
+\setlength{\headheight}{22pt}
+
+% Color scheme
+\definecolor{primary}{RGB}{0, 123, 91}
+\definecolor{secondary}{RGB}{255, 159, 28}
+\definecolor{accent}{RGB}{51, 122, 183}
+\definecolor{gray}{RGB}{128, 128, 128}
+\definecolor{success}{RGB}{40, 167, 69}
+\definecolor{warning}{RGB}{255, 193, 7}
+\definecolor{danger}{RGB}{220, 53, 69}
+
+% Section formatting
+\titleformat{\section}
+  {\Large\bfseries\color{primary}}
+  {\thesection}{1em}{}
+  [\titlerule]
+
+\titleformat{\subsection}
+  {\large\bfseries\color{secondary}}
+  {\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalsize\bfseries\color{accent}}
+  {\thesubsubsection}{1em}{}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{gray}\small Automated Manhole Cleaning System}
+\lhead{\color{gray}\small Page \thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{primary}\leaders\hrule height \headrulewidth\hfill}}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    urlcolor=primary,
+    citecolor=primary,
+    pdfborder={0 0 0}
+}
+
+% Custom boxes
+\newtcolorbox{highlight}{
+    colback=primary!10,
+    colframe=primary,
+    arc=3mm,
+    boxrule=1pt,
+    left=3mm,
+    right=3mm,
+    top=2mm,
+    bottom=2mm
+}
+
+\newtcolorbox{warning}{
+    colback=warning!15,
+    colframe=warning,
+    arc=3mm,
+    boxrule=1pt,
+    left=3mm,
+    right=3mm,
+    top=2mm,
+    bottom=2mm
+}
+
+\newtcolorbox{success}{
+    colback=success!10,
+    colframe=success,
+    arc=3mm,
+    boxrule=1pt,
+    left=3mm,
+    right=3mm,
+    top=2mm,
+    bottom=2mm
+}
+
+\newtcolorbox{market}{
+    colback=accent!10,
+    colframe=accent,
+    arc=3mm,
+    boxrule=1pt,
+    left=3mm,
+    right=3mm,
+    top=2mm,
+    bottom=2mm
+}
+
+\begin{document}
+
+% Title page
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\Huge\bfseries\color{primary} Automated Manhole Cleaning System}
+    
+    \vspace{1cm}
+    {\Large\color{secondary} Revolutionizing Urban Sanitation Infrastructure}
+    
+    \vspace{2cm}
+    
+    \begin{tcolorbox}[colback=success!15, colframe=success, width=0.85\textwidth, arc=5mm]
+        \centering
+        \large\textbf{Smart • Safe • Sustainable • Scalable}
+        
+        \vspace{0.5cm}
+        Transforming India's Urban Infrastructure with Technology
+    \end{tcolorbox}
+    
+    \vspace{1.5cm}
+    
+    \begin{market}
+        \centering
+        \textbf{Target Market: India's Growing Urban Centers}\\
+        \vspace{0.3cm}
+        \textbf{Market Size:} ₹12,500+ Crores\\
+        \textbf{Cities Covered:} 4,000+ Urban Areas\\
+        \textbf{Manholes:} 15+ Million Nationwide
+    \end{market}
+    
+    \vfill
+    
+    {\large
+    \textbf{Prepared by:} Urban Technology Solutions\\
+    \textbf{Date:} August 2, 2025\\
+    \textbf{Classification:} Business Proposal\\
+    \textbf{Version:} 1.0
+    }
+    
+\end{titlepage}
+
+% Table of contents
+\tableofcontents
+\newpage
+
+\section{Executive Summary}
+
+\begin{highlight}
+The Automated Manhole Cleaning System represents a transformative solution for India's urban sanitation challenges, addressing the critical need for safe, efficient, and technologically advanced infrastructure maintenance. This system eliminates the dangerous practice of manual scavenging while ensuring consistent, high-quality cleaning of urban drainage systems.
+\end{highlight}
+
+With India's rapid urbanization creating unprecedented demand for infrastructure maintenance, this automated solution targets a market worth over ₹12,500 crores, serving 4,000+ cities and towns across the country. The system combines robotics, IoT sensors, and AI-driven maintenance scheduling to create a comprehensive solution that addresses both immediate sanitation needs and long-term urban planning requirements.
+
+\section{Problem Statement}
+
+\subsection{Current Challenges in India}
+
+\begin{warning}
+\textbf{Critical Issues in Manual Manhole Cleaning:}
+\begin{itemize}
+    \item \textbf{Human Safety:} 340+ deaths annually due to manual scavenging (National Crime Records Bureau)
+    \item \textbf{Health Hazards:} Exposure to toxic gases, infectious diseases, and hazardous materials
+    \item \textbf{Inefficient Process:} Manual cleaning takes 4-6 hours per manhole vs. 45 minutes automated
+    \item \textbf{Inconsistent Quality:} Variable cleaning standards depending on manual labor availability
+    \item \textbf{Legal Compliance:} Violation of Prohibition of Employment as Manual Scavengers Act, 2013
+    \item \textbf{Social Impact:} Perpetuation of caste-based discrimination and social exclusion
+\end{itemize}
+\end{warning}
+
+\subsection{Urban Infrastructure Pressure}
+India's urbanization is creating unprecedented infrastructure demands:
+\begin{itemize}[leftmargin=2em]
+    \item Urban population expected to reach 814 million by 2050 (UN projections)
+    \item 100 Smart Cities Mission requiring advanced infrastructure solutions
+    \item Swachh Bharat Mission 2.0 focusing on complete sanitation coverage
+    \item Growing middle class demanding improved urban services
+\end{itemize}
+
+\section{Market Analysis - India Focus}
+
+\subsection{Market Size \& Opportunity}
+
+\begin{market}
+\textbf{Total Addressable Market (TAM):}
+\begin{itemize}
+    \item \textbf{Urban Centers:} 4,000+ cities and towns
+    \item \textbf{Manholes:} 15+ million across India
+    \item \textbf{Annual Maintenance:} ₹12,500+ crores market size
+    \item \textbf{Growth Rate:} 12-15\% annually driven by urbanization
+\end{itemize}
+\end{market}
+
+\subsection{City-wise Market Segmentation}
+
+\subsubsection{Tier 1 Cities (Population > 1 Million)}
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{City Category} & \textbf{Cities} & \textbf{Manholes} & \textbf{Market Value (₹ Cr)} \\
+\midrule
+Mega Cities (>10M) & 5 & 2,500,000 & 3,750 \\
+Metro Cities (4-10M) & 8 & 1,600,000 & 2,400 \\
+Large Cities (1-4M) & 35 & 2,800,000 & 4,200 \\
+\midrule
+\textbf{Tier 1 Total} & \textbf{48} & \textbf{6,900,000} & \textbf{10,350} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsubsection{Tier 2 \& Tier 3 Cities}
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{City Category} & \textbf{Cities} & \textbf{Manholes} & \textbf{Market Value (₹ Cr)} \\
+\midrule
+Tier 2 (0.5-1M) & 75 & 3,750,000 & 1,875 \\
+Tier 3 (0.1-0.5M) & 400 & 4,000,000 & 600 \\
+Smaller Towns & 3,500+ & 1,000,000+ & 150+ \\
+\midrule
+\textbf{Tier 2/3 Total} & \textbf{3,975+} & \textbf{8,750,000+} & \textbf{2,625+} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{State-wise Market Distribution}
+
+\begin{center}
+\begin{tabular}{lrr}
+\toprule
+\textbf{State/Region} & \textbf{Market Share (\%)} & \textbf{Value (₹ Crores)} \\
+\midrule
+Maharashtra & 15\% & 1,875 \\
+Uttar Pradesh & 12\% & 1,500 \\
+Gujarat & 10\% & 1,250 \\
+Tamil Nadu & 9\% & 1,125 \\
+Karnataka & 8\% & 1,000 \\
+West Bengal & 7\% & 875 \\
+Rajasthan & 6\% & 750 \\
+Madhya Pradesh & 5\% & 625 \\
+Others & 28\% & 3,500 \\
+\midrule
+\textbf{Total} & \textbf{100\%} & \textbf{12,500} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{Market Demand Drivers}
+
+\subsection{Government Initiatives}
+\begin{success}
+\textbf{Policy Support Creating Market Demand:}
+\begin{itemize}
+    \item \textbf{Swachh Bharat Mission 2.0:} ₹1.41 lakh crores allocated for urban sanitation
+    \item \textbf{Smart Cities Mission:} ₹2.05 lakh crores for urban infrastructure modernization
+    \item \textbf{AMRUT 2.0:} ₹2.87 lakh crores for water supply and sewerage infrastructure
+    \item \textbf{Manual Scavenging Prohibition:} Legal mandate requiring technological alternatives
+    \item \textbf{National Urban Policy Framework:} Focus on sustainable and inclusive urban development
+\end{itemize}
+\end{success}
+
+\subsection{Regulatory Environment}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Prohibition of Employment as Manual Scavengers Act, 2013:} Legal requirement for alternatives
+    \item \textbf{Swachh Bharat Mission Guidelines:} Preference for mechanized cleaning solutions
+    \item \textbf{Central Pollution Control Board Norms:} Stringent wastewater management requirements
+    \item \textbf{State Municipal Acts:} Mandatory sanitation infrastructure maintenance
+\end{itemize}
+
+\subsection{Economic Factors}
+\begin{itemize}[leftmargin=2em]
+    \item Rising labor costs making automation economically viable
+    \item Insurance and liability costs associated with manual cleaning
+    \item Increasing healthcare costs due to occupational hazards
+    \item Growing demand for consistent service quality from urban residents
+\end{itemize}
+
+\section{Technology Solution}
+
+\subsection{System Architecture}
+The Automated Manhole Cleaning System consists of integrated components:
+
+\begin{enumerate}[leftmargin=2em]
+    \item \textbf{Robotic Cleaning Unit:} Autonomous robot with specialized cleaning attachments
+    \item \textbf{IoT Monitoring System:} Real-time sensors for condition monitoring
+    \item \textbf{AI-Powered Scheduling:} Predictive maintenance and optimal cleaning cycles
+    \item \textbf{Remote Operation Center:} Centralized monitoring and control facility
+    \item \textbf{Mobile Service Units:} Deployment and maintenance vehicles
+\end{enumerate}
+
+\subsection{Key Features}
+
+\subsubsection{Robotic Cleaning Technology}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Autonomous Navigation:} GPS and sensor-guided positioning
+    \item \textbf{Multi-Tool Capability:} High-pressure water jets, suction pumps, scrubbing brushes
+    \item \textbf{Hazardous Gas Detection:} Real-time monitoring of toxic gases (H2S, CH4, CO)
+    \item \textbf{Waste Classification:} AI-powered identification and sorting of debris
+    \item \textbf{Emergency Safety Systems:} Automatic shutdown and emergency retrieval
+\end{itemize}
+
+\subsubsection{IoT \& Data Analytics}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Condition Monitoring:} Continuous assessment of manhole status
+    \item \textbf{Predictive Maintenance:} ML algorithms for optimal cleaning schedules
+    \item \textbf{Performance Analytics:} Real-time efficiency and quality metrics
+    \item \textbf{Integration Capability:} API connectivity with city management systems
+\end{itemize}
+
+\section{Business Model}
+
+\subsection{Revenue Streams}
+\begin{enumerate}[leftmargin=2em]
+    \item \textbf{Equipment Sales:} Direct sale of automated cleaning systems to municipalities
+    \item \textbf{Service Contracts:} Long-term maintenance and operation agreements
+    \item \textbf{Technology Licensing:} Licensing of technology to local manufacturers
+    \item \textbf{Data Services:} Urban infrastructure analytics and insights
+    \item \textbf{Training \& Certification:} Operator training and certification programs
+\end{enumerate}
+
+\subsection{Pricing Strategy}
+
+\subsubsection{System Pricing}
+\begin{center}
+\begin{tabular}{lrr}
+\toprule
+\textbf{System Type} & \textbf{Price (₹ Lakhs)} & \textbf{Target Market} \\
+\midrule
+Compact System & 15-25 & Tier 3 cities, small municipalities \\
+Standard System & 35-50 & Tier 2 cities, medium municipalities \\
+Advanced System & 65-85 & Tier 1 cities, metropolitan areas \\
+Enterprise Solution & 1.5-3 Crores & Mega cities, state-level contracts \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsubsection{Service Contract Pricing}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Basic Maintenance:} ₹8,000-12,000 per manhole per year
+    \item \textbf{Full Service:} ₹15,000-25,000 per manhole per year
+    \item \textbf{Premium Package:} ₹30,000-45,000 per manhole per year (includes 24/7 monitoring)
+\end{itemize}
+
+\section{Market Entry Strategy}
+
+\subsection{Phase 1: Pilot Projects (6-12 months)}
+\begin{itemize}[leftmargin=2em]
+    \item Partner with 5 progressive municipalities for pilot implementations
+    \item Focus on Smart Cities Mission participants
+    \item Demonstrate ROI and safety improvements
+    \item Build case studies and testimonials
+\end{itemize}
+
+\subsection{Phase 2: State-Level Expansion (1-2 years)}
+\begin{itemize}[leftmargin=2em]
+    \item Secure state government partnerships
+    \item Leverage AMRUT and Swachh Bharat funding
+    \item Establish regional service centers
+    \item Build local manufacturing partnerships
+\end{itemize}
+
+\subsection{Phase 3: National Rollout (2-5 years)}
+\begin{itemize}[leftmargin=2em]
+    \item Scale to all major urban centers
+    \item Establish franchise/dealer network
+    \item Export to neighboring countries
+    \item Develop advanced AI and IoT features
+\end{itemize}
+
+\section{Competitive Analysis}
+
+\subsection{Current Market Players}
+\begin{warning}
+\textbf{Limited Competition - Market Opportunity:}
+\begin{itemize}
+    \item \textbf{International Players:} Few global companies with high-cost solutions
+    \item \textbf{Local Manufacturers:} Limited technical capability and scale
+    \item \textbf{Manual Service Providers:} Traditional contractors with safety risks
+    \item \textbf{Government Agencies:} In-house teams with resource constraints
+\end{itemize}
+\end{warning}
+
+\subsection{Competitive Advantages}
+\begin{success}
+\textbf{Key Differentiators:}
+\begin{itemize}
+    \item \textbf{India-Specific Design:} Tailored for Indian infrastructure and conditions
+    \item \textbf{Cost-Effective Solution:} 40-60\% lower cost than international alternatives
+    \item \textbf{Local Manufacturing:} Made in India with local supply chain
+    \item \textbf{Government Alignment:} Direct support for policy objectives
+    \item \textbf{Comprehensive Service:} End-to-end solution including training and support
+    \item \textbf{Safety Focus:} Eliminates human risk while improving efficiency
+\end{itemize}
+\end{success}
+
+\section{Financial Projections}
+
+\subsection{Revenue Projections (5-Year)}
+\begin{center}
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{Year} & \textbf{Y1} & \textbf{Y2} & \textbf{Y3} & \textbf{Y4} & \textbf{Y5} \\
+\midrule
+Systems Sold & 50 & 200 & 500 & 1,000 & 1,800 \\
+Service Contracts & 25 & 150 & 400 & 800 & 1,500 \\
+Revenue (₹ Cr) & 25 & 120 & 300 & 580 & 950 \\
+Market Share & 0.2\% & 1.0\% & 2.4\% & 4.6\% & 7.6\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Investment Requirements}
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+\textbf{Investment Category} & \textbf{Amount (₹ Crores)} \\
+\midrule
+R\&D and Product Development & 15 \\
+Manufacturing Setup & 25 \\
+Market Development & 12 \\
+Working Capital & 18 \\
+Technology Infrastructure & 8 \\
+Contingency (15\%) & 12 \\
+\midrule
+\textbf{Total Investment} & \textbf{90} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{Implementation Roadmap}
+
+\subsection{Development Timeline}
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+\textbf{Phase} & \textbf{Duration} & \textbf{Key Milestones} \\
+\midrule
+Product Development & 8 months & Prototype testing, certification \\
+Pilot Implementation & 6 months & 5 city pilots, performance validation \\
+Manufacturing Setup & 4 months & Production facility, supply chain \\
+Market Launch & 3 months & Sales team, channel partnerships \\
+Scale-Up & 12 months & National expansion, volume production \\
+\midrule
+\textbf{Total Timeline} & \textbf{33 months} & \textbf{Market leadership position} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Key Success Metrics}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Safety:} Zero fatalities in automated cleaning operations
+    \item \textbf{Efficiency:} 75\% reduction in cleaning time per manhole
+    \item \textbf{Quality:} 95\% consistency in cleaning standards
+    \item \textbf{Market Penetration:} 5\% market share within 4 years
+    \item \textbf{Customer Satisfaction:} 90\%+ satisfaction rating from municipal clients
+\end{itemize}
+
+\section{Risk Analysis}
+
+\subsection{Market Risks}
+\begin{warning}
+\textbf{Potential Challenges:}
+\begin{itemize}
+    \item \textbf{Government Policy Changes:} Shifts in funding priorities or regulations
+    \item \textbf{Economic Slowdown:} Reduced municipal budgets for infrastructure
+    \item \textbf{Competition:} Entry of well-funded international competitors
+    \item \textbf{Technology Risks:} Technical challenges in harsh operating environments
+\end{itemize}
+\end{warning}
+
+\subsection{Mitigation Strategies}
+\begin{success}
+\textbf{Risk Mitigation Measures:}
+\begin{itemize}
+    \item \textbf{Diversified Revenue:} Multiple revenue streams reducing dependency
+    \item \textbf{Government Relations:} Strong partnerships with policy makers
+    \item \textbf{Flexible Pricing:} Adaptable pricing models for different market segments
+    \item \textbf{Continuous Innovation:} Ongoing R\&D to maintain technological edge
+    \item \textbf{Local Partnerships:} Strong ecosystem of local partners and suppliers
+\end{itemize}
+\end{success}
+
+\section{Machine Development \& Engineering}
+
+\subsection{Development Approach}
+The automated manhole cleaning machine development follows a systematic engineering approach focusing on reliability, safety, and cost-effectiveness for Indian operating conditions.
+
+\begin{success}
+\textbf{Design Principles:}
+\begin{itemize}
+    \item \textbf{Modular Architecture:} Interchangeable components for different manhole types
+    \item \textbf{Robust Construction:} Designed for harsh environmental conditions
+    \item \textbf{Fail-Safe Systems:} Multiple safety mechanisms and emergency protocols
+    \item \textbf{Local Manufacturing:} Components sourced and manufactured in India
+    \item \textbf{Maintenance Friendly:} Easy access to serviceable parts
+\end{itemize}
+\end{success}
+
+\subsection{Machine Specifications}
+
+\subsubsection{Physical Dimensions}
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+\textbf{Parameter} & \textbf{Specification} \\
+\midrule
+Overall Length & 2.5 meters \\
+Overall Width & 1.8 meters \\
+Height (Transport) & 2.2 meters \\
+Height (Operating) & 3.5 meters \\
+Weight & 1,200 kg \\
+Manhole Compatibility & 600mm to 1200mm diameter \\
+Operating Depth & Up to 15 meters \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsubsection{Performance Specifications}
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+\textbf{Parameter} & \textbf{Specification} \\
+\midrule
+Cleaning Time & 30-45 minutes per manhole \\
+Water Pressure & 50-150 bar (adjustable) \\
+Suction Capacity & 500 liters per minute \\
+Power Consumption & 15 kW (diesel) / 12 kW (electric) \\
+Waste Storage & 2000 liter tank \\
+Operating Temperature & -10°C to +50°C \\
+Noise Level & < 75 dB at 1 meter \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{System Components}
+
+\subsubsection{Main Assembly Units}
+\begin{enumerate}[leftmargin=2em]
+    \item \textbf{Robotic Cleaning Unit:} Primary cleaning mechanism with multi-tool capability
+    \item \textbf{High-Pressure Water System:} Pump, filtration, and pressure regulation
+    \item \textbf{Vacuum Suction System:} Debris collection and waste management
+    \item \textbf{Power Generation Unit:} Diesel generator or electric power connection
+    \item \textbf{Control System:} AI-powered automation and manual override controls
+    \item \textbf{Safety Monitoring:} Gas detection, emergency stop, and operator protection
+    \item \textbf{Mobility Platform:} Self-propelled vehicle with positioning systems
+\end{enumerate}
+
+\subsubsection{Robotic Cleaning Tools}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Rotating Brush System:} Variable speed brushes for surface cleaning
+    \item \textbf{High-Pressure Jets:} 360-degree rotating nozzles for debris removal
+    \item \textbf{Suction Heads:} Multiple sizes for different debris types
+    \item \textbf{Scraping Tools:} Automated scrapers for hardened deposits
+    \item \textbf{Camera System:} 4K cameras with LED lighting for inspection
+    \item \textbf{Sensor Array:} Chemical detection, depth measurement, and navigation
+\end{itemize}
+
+\section{Bill of Materials (BOM)}
+
+\subsection{Major Components}
+
+\subsubsection{Mechanical Systems}
+\begin{center}
+\small
+\begin{tabular}{lllrr}
+\toprule
+\textbf{Component} & \textbf{Specification} & \textbf{Supplier} & \textbf{Qty} & \textbf{Cost (₹)} \\
+\midrule
+Main Chassis Frame & Steel fabrication & Local & 1 & 2,50,000 \\
+Telescopic Mast & 5m extension & Hydraulic India & 1 & 1,80,000 \\
+Robotic Arm Assembly & 6-DOF articulated & Robotics Plus & 1 & 3,50,000 \\
+High-Pressure Pump & 150 bar, 300 LPM & CAT Pumps & 1 & 1,20,000 \\
+Vacuum Pump & 500 LPM suction & Gardner Denver & 1 & 85,000 \\
+Water Tank & 1500L stainless steel & Sintex & 1 & 45,000 \\
+Waste Tank & 2000L with discharge & Sintex & 1 & 65,000 \\
+Filtration System & Multi-stage filters & Thermax & 1 & 75,000 \\
+\midrule
+\textbf{Mechanical Subtotal} & & & & \textbf{10,70,000} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsubsection{Electrical \& Control Systems}
+\begin{center}
+\small
+\begin{tabular}{lllrr}
+\toprule
+\textbf{Component} & \textbf{Specification} & \textbf{Supplier} & \textbf{Qty} & \textbf{Cost (₹)} \\
+\midrule
+Main Control Unit & Industrial PC, IP65 & Advantech & 1 & 1,25,000 \\
+PLC System & Modular I/O, Ethernet & Siemens & 1 & 95,000 \\
+HMI Touchscreen & 15" ruggedized & Schneider & 1 & 65,000 \\
+Motor Drives & VFD 0.5-5 kW & ABB & 6 & 1,80,000 \\
+Servo Motors & High precision & Delta & 4 & 1,20,000 \\
+Encoder Systems & Absolute position & Heidenhain & 8 & 80,000 \\
+Power Distribution & MCB, contactors & L\&T & 1 & 35,000 \\
+UPS System & 2 hour backup & APC & 1 & 45,000 \\
+Cabling \& Connectors & Industrial grade & Lapp India & 1 & 40,000 \\
+\midrule
+\textbf{Electrical Subtotal} & & & & \textbf{6,85,000} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsubsection{Sensors \& Instrumentation}
+\begin{center}
+\small
+\begin{tabular}{lllrr}
+\toprule
+\textbf{Component} & \textbf{Specification} & \textbf{Supplier} & \textbf{Qty} & \textbf{Cost (₹)} \\
+\midrule
+Gas Detection System & H2S, CH4, CO, O2 & Honeywell & 1 & 1,15,000 \\
+4K Camera System & Pan-tilt-zoom & Axis & 2 & 90,000 \\
+LED Lighting & High-intensity LED & Philips & 4 & 25,000 \\
+Ultrasonic Sensors & Distance measurement & Pepperl+Fuchs & 6 & 45,000 \\
+Pressure Sensors & Water \& air pressure & Endress+Hauser & 4 & 35,000 \\
+Flow Sensors & Water flow monitoring & Krohne & 2 & 40,000 \\
+Temperature Sensors & RTD, thermocouple & Wika & 6 & 18,000 \\
+GPS Module & High-precision & u-blox & 1 & 25,000 \\
+IMU Sensor & 9-axis orientation & Bosch & 1 & 15,000 \\
+LiDAR Sensor & 3D mapping & Velodyne & 1 & 1,80,000 \\
+\midrule
+\textbf{Sensors Subtotal} & & & & \textbf{4,88,000} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsubsection{Power \& Mobility Systems}
+\begin{center}
+\small
+\begin{tabular}{lllrr}
+\toprule
+\textbf{Component} & \textbf{Specification} & \textbf{Supplier} & \textbf{Qty} & \textbf{Cost (₹)} \\
+\midrule
+Diesel Generator & 20 kVA, silent type & Kirloskar & 1 & 2,25,000 \\
+Hydraulic Power Unit & 25 HP, variable flow & Bosch Rexroth & 1 & 1,85,000 \\
+Drive Motors & Electric wheel motors & Bonfiglioli & 4 & 1,60,000 \\
+Battery Pack & 48V, 200Ah LiFePO4 & Exide & 1 & 1,40,000 \\
+Charger System & Multi-stage charging & Delta & 1 & 35,000 \\
+Wheels \& Tires & All-terrain, puncture-proof & JK Tyre & 4 & 80,000 \\
+Suspension System & Air suspension & Gabriel & 4 & 1,20,000 \\
+Steering System & Electro-hydraulic & ZF & 1 & 95,000 \\
+\midrule
+\textbf{Power \& Mobility Subtotal} & & & & \textbf{9,40,000} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsubsection{Safety \& Communication Systems}
+\begin{center}
+\small
+\begin{tabular}{lllrr}
+\toprule
+\textbf{Component} & \textbf{Specification} & \textbf{Supplier} & \textbf{Qty} & \textbf{Cost (₹)} \\
+\midrule
+Emergency Stop System & Fail-safe design & Pilz & 1 & 45,000 \\
+Warning Lights & LED beacon, strobe & Federal Signal & 4 & 20,000 \\
+Audio Alarm System & Multi-tone siren & Moflash & 1 & 15,000 \\
+4G/5G Modem & Cellular communication & Sierra Wireless & 1 & 25,000 \\
+WiFi Router & Industrial grade & Cisco & 1 & 35,000 \\
+Intercom System & Two-way communication & Bosch & 1 & 30,000 \\
+CCTV System & Recording \& monitoring & Hikvision & 1 & 65,000 \\
+Fire Suppression & Automatic system & Ceasefire & 1 & 85,000 \\
+\midrule
+\textbf{Safety \& Comm Subtotal} & & & & \textbf{3,20,000} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsubsection{Cleaning Tools \& Attachments}
+\begin{center}
+\small
+\begin{tabular}{lllrr}
+\toprule
+\textbf{Component} & \textbf{Specification} & \textbf{Supplier} & \textbf{Qty} & \textbf{Cost (₹)} \\
+\midrule
+Rotating Brush Set & Various diameters & Kärcher & 5 & 35,000 \\
+High-Pressure Nozzles & 360° rotating & Spraying Systems & 8 & 40,000 \\
+Suction Heads & Multiple sizes & Custom Fab & 6 & 30,000 \\
+Scraper Blades & Replaceable cutting edges & Hardox Steel & 10 & 25,000 \\
+Debris Basket & Mesh collection & SS Fabrication & 3 & 15,000 \\
+Chemical Injection & Dosing pumps & ProMinent & 2 & 55,000 \\
+Tool Quick-Connect & Hydraulic couplers & Parker & 6 & 18,000 \\
+Hose Assemblies & High-pressure rated & Gates & 4 & 35,000 \\
+\midrule
+\textbf{Tools \& Attachments Subtotal} & & & & \textbf{2,53,000} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{BOM Summary}
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+\textbf{System Category} & \textbf{Cost (₹)} \\
+\midrule
+Mechanical Systems & 10,70,000 \\
+Electrical \& Control Systems & 6,85,000 \\
+Sensors \& Instrumentation & 4,88,000 \\
+Power \& Mobility Systems & 9,40,000 \\
+Safety \& Communication Systems & 3,20,000 \\
+Cleaning Tools \& Attachments & 2,53,000 \\
+\midrule
+\textbf{Total Material Cost} & \textbf{37,56,000} \\
+Manufacturing \& Assembly (25\%) & 9,39,000 \\
+Quality Testing \& Certification (5\%) & 1,88,000 \\
+Contingency \& Engineering Changes (10\%) & 3,76,000 \\
+\midrule
+\textbf{Total Manufacturing Cost} & \textbf{52,59,000} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Development Timeline}
+
+\subsubsection{Design \& Engineering Phase (4 months)}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Month 1:} Detailed design and 3D modeling
+    \item \textbf{Month 2:} Component selection and supplier qualification
+    \item \textbf{Month 3:} Prototype fabrication and initial testing
+    \item \textbf{Month 4:} Design refinement and validation testing
+\end{itemize}
+
+\subsubsection{Manufacturing Setup Phase (3 months)}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Month 5:} Production line setup and tooling
+    \item \textbf{Month 6:} Supplier partnerships and quality systems
+    \item \textbf{Month 7:} Pre-production prototypes and certification
+\end{itemize}
+
+\subsubsection{Testing \& Validation Phase (2 months)}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Month 8:} Field testing and performance validation
+    \item \textbf{Month 9:} Reliability testing and final design freeze
+\end{itemize}
+
+\subsection{Quality Assurance}
+
+\subsubsection{Testing Protocols}
+\begin{success}
+\textbf{Comprehensive Testing Program:}
+\begin{itemize}
+    \item \textbf{Component Testing:} Individual component validation
+    \item \textbf{System Integration:} Full system functionality testing
+    \item \textbf{Environmental Testing:} Temperature, humidity, dust, vibration
+    \item \textbf{Safety Testing:} Emergency systems and fail-safe verification
+    \item \textbf{Performance Testing:} Cleaning efficiency and cycle time validation
+    \item \textbf{Reliability Testing:} 1000-hour continuous operation test
+    \item \textbf{Field Testing:} Real-world conditions across different locations
+\end{itemize}
+\end{success}
+
+\subsubsection{Certification Requirements}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{IS/ISO Standards:} Quality management system compliance
+    \item \textbf{CE Marking:} European conformity for export markets
+    \item \textbf{Electrical Safety:} IS 13252 compliance for electrical systems
+    \item \textbf{Environmental:} Pollution Control Board approvals
+    \item \textbf{Safety Standards:} Occupational safety compliance
+\end{itemize}
+
+\section{Social Impact}
+
+\subsection{Addressing Manual Scavenging}
+\begin{highlight}
+The automated manhole cleaning system directly addresses one of India's most pressing social issues by providing a technological solution that:
+\begin{itemize}
+    \item Eliminates the need for humans to enter manholes
+    \item Provides alternative employment opportunities through technology operation
+    \item Reduces health risks and improves working conditions
+    \item Supports government efforts to end manual scavenging practices
+\end{itemize}
+\end{highlight}
+
+\subsection{Employment Transformation}
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Skill Upgradation:} Training manual workers to operate advanced technology
+    \item \textbf{Job Creation:} New roles in system operation, maintenance, and supervision
+    \item \textbf{Dignified Work:} Transformation from hazardous manual labor to skilled technical jobs
+    \item \textbf{Economic Mobility:} Higher wages and better working conditions for workers
+\end{itemize}
+
+\section{Conclusion}
+
+\begin{highlight}
+The Automated Manhole Cleaning System represents a transformative opportunity to address India's urban sanitation challenges while building a sustainable and profitable business. With a market size exceeding ₹12,500 crores and strong government policy support, this technology solution can capture significant market share while delivering measurable social impact.
+\end{highlight}
+
+The combination of technological innovation, market demand, regulatory support, and social necessity creates an ideal environment for successful market entry and rapid scaling. By focusing on India-specific solutions and building strong partnerships with government agencies and local stakeholders, this venture can establish market leadership while contributing to the nation's urban development goals.
+
+The investment of ₹90 crores over 33 months will position the company to capture 7.6\% market share and generate ₹950 crores in annual revenue by Year 5, while simultaneously addressing critical social and environmental challenges facing India's urban areas.
+
+\vfill
+
+\begin{center}
+\rule{0.8\textwidth}{0.5pt}\\
+\vspace{0.5cm}
+\textbf{Contact Information}\\
+Ready for detailed discussions and partnership opportunities\\
+\textit{Prepared by Urban Technology Solutions • August 2025}
+\end{center}
+
+\end{document}

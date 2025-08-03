@@ -1,0 +1,464 @@
+S.No.,HSCode,Commodity,2024  (Rs crore),Unit of Quantity (Unit),Import Quantity (2024),Chapter #,Broad Product Category,Sector /Segment
+1,22071019,Other rectified spirit,2.65,LTR,48438,22,Denatured ethyl alcohol and spirits,Chemicals / Industrial
+2,22071090,Other spirits of undenatured ethyl alcohol,27.88,LTR,854324,22,Other denatured ethyl alcohol and spirits,Chemicals / Industrial
+3,22072000,"Ethyl alcohol and other spirits, denatured, of any strength",4002.84,LTR,679738654,22,Undenatured ethyl alcohol (≥80%),Chemicals / Industrial
+4,22089091,Tequila in containers holding more than 2 liters,0.79,LTR,6685,22,Tequila (in containers >2L),Food & Beverages / Alcohol
+5,22089092,Undenatured ethyl alcohol in containers holding more than 2 liters,5.73,LTR,97796,22,Vodka (in containers >2L),Food & Beverages / Alcohol
+6,22089099,Other spirits in containers holding more than 2 liters,630.61,LTR,18337698,22,Other spirits and distilled beverages,Food & Beverages / Alcohol
+7,23011010,Meat meals and pellets (including tankage),0.0,KGS,0,23,Meat meal and pellets,Animal Feed
+8,23012011,"Powdered fish meal, unfit for human consumption",68.39,KGS,5627600,23,"Fish meal, powder, unfit for human consumption",Animal Feed
+9,23012019,"Other fish meal, unfit for human consumption",72.48,KGS,5006912,23,"Other fish meal, unfit for human consumption",Animal Feed
+10,23012090,"Flour, meals, etc. of other aquatic invertebrates",0.02,KGS,2001,23,Other animal meal and pellets,Animal Feed
+11,23021010,Maize bran,0.28,KGS,180000,23,Meat and bone meal,Animal Feed
+12,23021090,Other by-products from the processing of maize bran,4.93,KGS,2332165,23,Other animal feed ingredients from meat/bone,Animal Feed
+13,23023000,"Bran, sharps and other residues of wheat",63.15,KGS,35890918,23,"Wheat bran, sharps, and other residues",Animal Feed
+14,23024000,"Bran, sharps and other residues of other cereals",67.19,KGS,40470089,23,"Cereal bran, sharps, and other residues (cereals)",Animal Feed
+15,23025000,"Bran, sharps and other residues of leguminous plants",3.23,KGS,1268600,23,Residues of leguminous plants,Animal Feed
+16,23031000,Residues of starch manufacture and similar residues,14.26,KGS,1325905,23,Residues from starch manufacture,Animal Feed
+17,23032000,"Beet-pulp, bagasse and other waste of sugar manufacture",1.37,KGS,12894376,23,"Beet-pulp, bagasse, similar waste",Animal Feed
+18,23033000,Brewing or distilling dregs and waste,2.08,KGS,3970566,23,Brewing and distilling dregs and waste,Animal Feed
+19,23040010,Soya bean oil-cake and oil-cake meal (expeller variety),0.0,KGS,1,23,Oil-cake and solid residues of soya bean,Animal Feed
+20,23040090,Other solid residues from the extraction of soya bean oil,10.55,KGS,238015,23,Oil-cake and solid residues from other oilseeds,Animal Feed
+21,23063010,Sunflower seed oil-cake and oil-cake meal (expeller variety),12.56,KGS,6987743,23,Sunflower seed oil-cake/meal (expeller variety),Animal Feed
+22,23063020,"Sunflower seed oil-cake and oil-cake meal, solvent extracted (defatted)",233.49,KGS,104203243,23,Sunflower seed oil-cake/meal (solvent extracted),Animal Feed
+23,23069011,Mowra seed oil-cake and oil-cake meal (expeller variety),0.0,KGS,0,23,Mowra seed oil-cake/meal (expeller variety),Animal Feed
+24,23069012,Mustard seed oil-cake and oil-cake meal (expeller variety),99.25,KGS,33366370,23,Mowra seed oil-cake/meal (solvent extracted),Animal Feed
+25,23069014,Sesame seed oil-cake and oil-cake meal (expeller variety),0.0,KGS,0,23,Other vegetable oil-cake/meal (specific),Animal Feed
+26,23069090,Other oil cake/solid residues,36.09,KGS,24558991,23,Other vegetable oil-cake and residues,Animal Feed
+27,23080000,Vegetable materials and vegetable waste/residues for animal feeding (not elsewhere specified),40.77,KGS,5834857,23,Vegetable materials and waste for animal feeding,Animal Feed
+28,23091000,"Dog or cat food, put up for retail sale",1150.03,KGS,57609720,23,Dog or cat food put up for retail sale,Pet Food
+29,23099010,Compounded animal feed,6.88,KGS,248241,23,Poultry feed preparations,Animal Feed / Poultry
+30,23099020,Concentrate for compound animal feed,225.5,KGS,7737235,23,Cattle feed preparations,Animal Feed / Cattle
+31,23099090,Other preparations of animal feeding,2801.61,KGS,108342466,23,Other animal feed preparations,Animal Feed
+32,29051100,"Methanol (methyl alcohol), saturated",7458.03,KGS,2967641251,29,Methanol (methyl alcohol),Chemicals
+33,29051220,Isopropyl alcohol,1126.16,KGS,111610750,29,Isopropyl alcohol,Chemicals
+34,29061310,Cholesterol,31.25,KGS,26087,29,Cholesterol,Pharmaceuticals / Chemicals
+35,29091910,Tertiary amyl methyl ether,0.46,KGS,21427,29,Tertiary amyl methyl ether,Chemicals
+36,29151100,Formic acid,134.27,KGS,22765648,29,Formic acid,Chemicals
+37,29152100,Acetic acid,4371.27,KGS,1232773575,29,Acetic acid,Chemicals
+38,29161100,Acrylic acid and its salts,558.58,KGS,66848847,29,Acrylic acid and its salts,Chemicals
+39,29181510,Potassium citrate,13.87,KGS,190805,29,Potassium citrate,Chemicals / Food Additive
+40,29321300,Furfural alcohol and tetrahydrofurfuryl alcohol,92.64,KGS,8200517,29,Furfuryl alcohol and tetrahydrofurfuryl alcohol,Chemicals
+41,29334900,"Other compounds containing a quinoline or isoquinoline ring system (whether or not hydrogenated), not further fused",555.44,KGS,2208546,29,Other quinoline or isoquinoline compounds,Pharmaceuticals / Chemicals
+42,29341000,Compounds containing an unfused thiazole ring (whether or not hydrogenated) in the structure,304.89,KGS,3773024,29,Thiazole and its derivatives,Pharmaceuticals / Chemicals
+43,29369000,"Other, including natural concentrates",9.28,KGS,33386,29,Other natural or chemical concentrates,Chemicals
+44,29371900,"Other polypeptide hormones, their derivatives and structural analogues",334.83,KGS,3304,29,"Other polypeptide hormones, derivatives",Pharmaceuticals
+45,29411010,Penicillins and its salts,1751.95,KGS,7679848,29,Penicillins and its salts,Pharmaceuticals / Antibiotics
+46,29411020,Ampicillin and its salts,5.82,KGS,19040,29,Penicillin G and V,Pharmaceuticals / Antibiotics
+47,29419020,Cephalexin and its salts,271.36,KGS,523706,29,Cephalexin and its salts,Pharmaceuticals / Antibiotics
+48,29419090,Other antibiotics,6575.09,KGS,7818709,29,Other antibiotics,Pharmaceuticals / Antibiotics
+49,29420011,Cefadroxil,12.93,KGS,21428,29,Chloramphenicol and its derivatives,Pharmaceuticals / Antibiotics
+50,29420012,Ibuprofen,65.98,KGS,906061,29,Streptomycin and its derivatives,Pharmaceuticals / Antibiotics
+51,29420090,"Other diloxanide furoate, cimetidine, famotidine n.e.s.",2673.63,KGS,6837420,29,Other antibiotics not specified elsewhere,Pharmaceuticals / Antibiotics
+52,30012010,Liquid extracts of liver,1.01,KGS,6,30,Polio vaccines,Pharmaceuticals / Vaccines
+53,30012030,Snake venom,0.12,KGS,1,30,Rabies vaccines,Pharmaceuticals / Vaccines
+54,30012090,Other extracts of glands or other organs or of their secretions,54.03,KGS,3986,30,Other vaccines for human medicine,Pharmaceuticals / Vaccines
+55,30019010,"Other substances prepared for therapeutic/prophylactic use, of human origin",6.28,KGS,677,30,Human blood and its components,Pharmaceuticals / Biologicals
+56,30019091,Heparin and its salts,453.32,KGS,12736,30,Human albumin,Pharmaceuticals / Biologicals
+57,30019099,"Other heparin salts; other human or animal substances for therapeutic/prophylactic uses, n.e.s.",19.29,KGS,18789,30,Other blood products,Pharmaceuticals / Biologicals
+58,30021210,For diphtheria,0.14,KGS,3,30,Anti-tetanus sera,Pharmaceuticals / Immunology
+59,30021220,For tetanus,30.88,KGS,298,30,Snake venom anti-sera,Pharmaceuticals / Immunology
+60,30021230,For rabies,20.22,KGS,2756,30,Anti-diphtheria sera,Pharmaceuticals / Immunology
+61,30021240,For snake venom,0.01,KGS,5,30,Rabies anti-sera,Pharmaceuticals / Immunology
+62,30021290,"Other antisera, blood fractions, and immunological products",1671.67,KGS,1448573,30,Other antisera and immunological products,Pharmaceuticals / Immunology
+63,30021300,"Immunological products, unmixed, not put up in measured doses, or for retail sale",61.89,KGS,5145,30,"Immunological products, unmixed",Pharmaceuticals / Immunology
+64,30021400,"Immunological products, mixed, not put up in measured doses, or for retail sale",25.28,KGS,692,30,"Immunological products, mixed",Pharmaceuticals / Immunology
+65,30021500,"Immunological products, put up in measured doses or for retail sale",3935.83,KGS,103331,30,Immunological products for veterinary use,Pharmaceuticals / Veterinary
+66,30024112,Hepatitis (single vaccine for),74.06,KGS,13213,30,"Diphtheria, pertussis, and tetanus (DPT) vaccine",Pharmaceuticals / Vaccines
+67,30024113,Tetanus (single vaccine for),9.43,KGS,417,30,"Tetanus vaccines, single",Pharmaceuticals / Vaccines
+68,30024114,Polio (single vaccine for),1459.92,KGS,16782,30,Hepatitis B vaccine,Pharmaceuticals / Vaccines
+69,30024116,Rabies (single vaccines for),4.26,KGS,6751,30,Rabies (single vaccines for),Pharmaceuticals / Vaccines
+70,30024118,Whooping cough (pertussis) (single vaccine for),15.88,KGS,1279,30,Influenza vaccines,Pharmaceuticals / Vaccines
+71,30024119,Other single vaccines not specifically named elsewhere for human use,1033.22,KGS,169114,30,Other single vaccines not specified elsewhere,Pharmaceuticals / Vaccines
+72,30024121,"Diphtheria, pertussis and tetanus (DPT)",89.69,KGS,34510,30,"DTP, DT or TdaP vaccines (combinations)",Pharmaceuticals / Vaccines
+73,30024123,"Measles, mumps and rubella (MMR)",4.72,KGS,2262,30,"Measles, mumps, rubella (MMR) vaccine",Pharmaceuticals / Vaccines
+74,30024129,"Other combination vaccines not specifically named elsewhere (excluding DPT, DT, etc.) for human use",238.73,KGS,51992,30,Other combined vaccines not specified elsewhere,Pharmaceuticals / Vaccines
+75,30024200,Vaccine for veterinary medicine,588.45,KGS,632064,30,Toxoids,Pharmaceuticals / Immunology
+76,30024910,Cultures of micro-organisms (excluding yeast),363.25,KGS,419934,30,Tetanus immunoglobulin,Pharmaceuticals / Immunology
+77,30024920,Toxins,43.94,KGS,2021,30,Rabies immunoglobulin,Pharmaceuticals / Immunology
+78,30024990,"Other immunological products, not put up in measured doses or for retail sale, not specifically listed (e.g., uncommon immunological agents)",148.99,KGS,59707,30,Other immunological products,Pharmaceuticals / Immunology
+79,30025900,OTHER,22.5,KGS,10519,30,Other blood products,Pharmaceuticals / Biologicals
+80,30029010,Human blood,58.61,KGS,42946,30,Human normal immunoglobulin,Pharmaceuticals / Immunology
+81,30029020,"Animal blood prepared for therapeutic, prophylactic or diagnostic uses",193.4,KGS,483889,30,Human immunoglobulin-specific,Pharmaceuticals / Immunology
+82,30029090,"Other human or animal blood substances for therapeutic, prophylactic, or diagnostic uses, not elsewhere specified (e.g., novel or rare preparations).",76.88,KGS,149994,30,Other human or animal blood immunological products,Pharmaceuticals / Immunology
+83,30032000,"Other, containing antibiotics",136.22,KGS,94719,30,Medicaments containing antibiotics,Pharmaceuticals / Medicines
+84,30033100,Containing insulin,0.0,KGS,0,30,Medicaments containing insulin,Pharmaceuticals / Medicines
+85,30033900,"Other medicaments of two or more mixed constituents for therapeutic/prophylactic uses, not containing hormones, and not for retail sale; not elsewhere specified",294.62,KGS,265686,30,"Medicaments with >1 constituent, not elsewhere specified",Pharmaceuticals / Medicines
+86,30039011,Medicaments of Ayurvedic system,93.02,KGS,1620642,30,Ayurvedic medicaments,Pharmaceuticals / AYUSH
+87,30039021,Menthol crystal,0.15,KGS,1419,30,Menthol crystal,Pharmaceuticals / AYUSH/Other
+88,30039031,Bovine albumin and drugs of animal origin,0.0,KGS,0,30,Siddha medicaments,Pharmaceuticals / AYUSH
+89,30039033,Calcium sennoside,0.3,KGS,51,30,Unani medicaments,Pharmaceuticals / AYUSH
+90,30039034,Anaesthetic agents used in human or veterinary medicine or surgery,10.4,KGS,57055,30,Homoeopathic medicaments,Pharmaceuticals / AYUSH
+91,30039090,Other medicaments not put up in measured doses or in packing,358.98,KGS,5665351,30,Other medicaments not put up in measured doses,Pharmaceuticals / Medicines
+92,30041010,"Penicillin in capsules, injections, etc.",1.33,KGS,7065,30,Containing penicillin or derivatives (caps/tabs),Pharmaceuticals / Antibiotics
+93,30041020,"Ampicillin in capsules, injections, etc.",1.16,KGS,678,30,Containing penicillin or derivatives (Injectables),Pharmaceuticals / Antibiotics
+94,30041030,"Amoxicillin in capsules, injections, etc.",11.16,KGS,14106,30,Containing streptomycin or derivatives (caps/tabs),Pharmaceuticals / Antibiotics
+95,30041050,"Cloxacillin in capsules, injections, etc.",0.12,KGS,50,30,Containing streptomycin or derivatives (Injectables),Pharmaceuticals / Antibiotics
+96,30041060,"Amclox in capsules, injections, etc.",0.0,KGS,0,30,Containing tetracycline or derivatives,Pharmaceuticals / Antibiotics
+97,30041090,"Other medicaments containing penicillins or derivatives thereof with a penicillanic acid structure, or streptomycins or their derivatives, put up for retail sale",19.01,KGS,22895,30,Other antibiotics medicines not specified elsewhere,Pharmaceuticals / Antibiotics
+98,30042011,Cefazolin,0.01,KGS,6,30,Ampicillin and derivatives (caps/tabs),Pharmaceuticals / Antibiotics
+99,30042012,"Cephalexin - formulations thereof, in capsules, etc.",0.0,KGS,0,30,Ampicillin and derivatives (injectables),Pharmaceuticals / Antibiotics
+100,30042013,"Ciprofloxacin - in capsule, tablet form, etc.",0.0,KGS,0,30,"Ciprofloxacin, capsule/tablet/injectable",Pharmaceuticals / Antibiotics
+101,30042019,Other cephalosporins and their derivatives,211.22,KGS,222883,30,Other cephalosporins and their derivatives,Pharmaceuticals / Antibiotics
+102,30042020,Sulfonamides and cotrimoxazole,0.72,KGS,6075,30,Ampicillin and derivatives (injectables),Pharmaceuticals
+103,30042031,Norfloxacin,0.0,KGS,0,30,Aminoglycoside antibiotics,Pharmaceuticals
+104,30042033,Ciprofloxacin (fluoroquinolones),0.01,KGS,0,30,Chloramphenicol and derivatives,Pharmaceuticals
+105,30042034,Ofloxacin,0.58,KGS,1265,30,Streptomycin and derivatives,Pharmaceuticals
+106,30042039,Other fluoroquinolones,7.24,KGS,8554,30,Other aminoglycoside antibiotics,Pharmaceuticals
+107,30042049,Other tetracyclines,10.63,KGS,1773,30,Other tetracyclines,Pharmaceuticals
+108,30042061,"Erythromycin in capsules, injections, ointments, etc.",0.1,KGS,2,30,"Erythromycin in capsules, injections, ointments",Pharmaceuticals
+109,30042063,Clarithromycin,0.01,KGS,5,30,Clindamycin and derivatives,Pharmaceuticals
+110,30042064,Azithromycin,3.94,KGS,7893,30,Lincomycin and derivatives,Pharmaceuticals
+111,30042069,Other macrolide,0.02,KGS,13,30,Other macrolide antibiotics,Pharmaceuticals
+112,30042091,Isoniazid,0.02,KGS,1,30,Dapsone and derivatives,Pharmaceuticals
+113,30042092,Rifampicin,0.12,KGS,67,30,Kanamycin,Pharmaceuticals
+114,30042093,Pyrazinamide,0.01,KGS,0,30,Chloramphenicol palmitate,Pharmaceuticals
+115,30042095,Clindamycin,58.49,KGS,109317,30,Meropenem and derivatives,Pharmaceuticals
+116,30042096,Vancomycin,0.12,KGS,0,30,Aztreonam and derivatives,Pharmaceuticals
+117,30042097,Polymyxin B and colistin,0.0,KGS,0,30,"Imipenem, cilastatin and derivatives",Pharmaceuticals
+118,30042099,"Other medicament containing other antibiotics, put up for retail sale",150.61,KGS,165680,30,Other antibiotics not elsewhere specified,Pharmaceuticals
+119,30043110,Insulin injection,1587.41,KGS,912013,30,Medicaments containing insulin (for injection),Pharmaceuticals
+120,30043190,Other medicaments containing insulin,14.02,KGS,6724,30,Other medicaments containing insulin,Pharmaceuticals
+121,30043200,"Medicaments containing corticosteroid hormones, their derivatives and structural analogues",62.32,KGS,25483,30,Medicaments containing adrenaline or its salts,Pharmaceuticals
+122,30043911,Pituitary hormones,0.02,KGS,17,30,Vitamin B12 preparations,Pharmaceuticals
+123,30043912,Prednisolone,46.74,KGS,95345,30,Vitamin C preparations,Pharmaceuticals
+124,30043913,Dexamethasone,0.13,KGS,13,30,Vitamin D preparations,Pharmaceuticals
+125,30043919,Other progestogen and oestrogen group,17.53,KGS,21450,30,Other vitamin preparations,Pharmaceuticals
+126,30043921,Gonadotrophins,28.32,KGS,4057,30,Multivitamin combinations,Pharmaceuticals
+127,30043990,Other gonadotrophins and luteinising hormone,362.2,KGS,149457,30,Other medicaments containing vitamins,Pharmaceuticals
+128,30044300,Containing norephedrine or its salts,0.0,KGS,0,30,Medicaments containing alkaloids or derivatives,Pharmaceuticals
+129,30044910,Atropine and its salts,0.01,KGS,14,30,Medicaments containing anti-malarial drugs,Pharmaceuticals
+130,30044920,Caffeine and its salts,0.0,KGS,0,30,Medicaments containing anti-tuberculosis drugs,Pharmaceuticals
+131,30044960,Bromohexine and salbutamol,0.07,KGS,2,30,Medicaments containing metronidazole,Pharmaceuticals
+132,30044990,"Medicaments containing alkaloids or their derivatives, for therapeutic or prophylactic uses, put up in measured doses or for retail sale",86.27,KGS,16313,30,Other medicaments containing alkaloids,Pharmaceuticals
+133,30045010,Haematinics and erythropoietin,0.84,KGS,47,30,Medicaments containing paracetamol,Pharmaceuticals
+134,30045039,"Other amino acid/protein preparations with/without vitamins, spirulina, and the like",0.15,KGS,895,30,Other amino acid/protein preparations,Pharmaceuticals
+135,30045090,"Others, put up for retail sale",17.58,KGS,7995,30,Other medicaments with vitamins/minerals,Pharmaceuticals
+136,30049011,Medicaments of Ayurvedic system,20.37,KGS,78148,30,Ayurvedic medicaments,Pharmaceuticals/AYUSH
+137,30049012,Medicaments of Unani system,0.0,KGS,37,30,Siddha medicaments,Pharmaceuticals/AYUSH
+138,30049014,Homeopathic medicine,265.33,KGS,572995,30,Homoeopathic medicaments,Pharmaceuticals/AYUSH
+139,30049015,Medicaments of bio-chemic system,44.4,KGS,130725,30,Unani medicaments,Pharmaceuticals/AYUSH
+140,30049021,Anthelmintics and preparations thereof,0.07,KGS,3,30,Anthelmintic drugs,Pharmaceuticals
+141,30049022,"Metronidazole formulations, alone or in combination with furazolidone and diloxanide furoate",0.52,KGS,4923,30,Antiamoebic drugs,Pharmaceuticals
+142,30049029,Other anthelmintic drugs; antiamoebic and other antiprotozoal/antifungal drugs,43.63,KGS,34885,30,Other anthelmintics/antiprotozoals,Pharmaceuticals
+143,30049031,"Promethazine, chlorpheniramine, astemizole and cetirizine",0.07,KGS,25,30,"Promethazine, chlorpheniramine, astemizole, cetrizine",Pharmaceuticals
+144,30049032,"Sodium bicarbonate, magnesium hydroxide, magnesium carbonate, magnesium trisilicate, aluminium hydroxide gel, magaldrate",18.58,KGS,1155424,30,"Antacid preparations (sodium bicarbonate, magnesium trisilicate, etc.)",Pharmaceuticals
+145,30049033,"Cimetidine, ranitidine, nizatidine, and roxatidine",0.0,KGS,0,30,"Cimetidine, ranitidine, nizatidine, roxatidine",Pharmaceuticals
+146,30049034,Omeprazole and lansoprazole,1.55,KGS,148,30,"Omeprazole, lansoprazole",Pharmaceuticals
+147,30049039,"Other antihistaminics, antacids, antiulcer, antiemetics and other gastrointestinal drugs",8.63,KGS,59681,30,Gastrointestinal drugs (other),Pharmaceuticals
+148,30049041,Cyclophosphamide,0.0,KGS,0,30,Antiasthmatic drugs,Pharmaceuticals
+149,30049042,"Methotrexate, 5-fluorouracil (5-FU) and ftorafur",0.41,KGS,160,30,Salmeterol and other similar bronchodilators,Pharmaceuticals
+150,30049044,Paclitaxel and docetaxel,6.58,KGS,315,30,"Theophylline, aminophylline",Pharmaceuticals
+151,30049046,"Actinomycin D, dactinomycin and doxorubicin",2.49,KGS,2937,30,"Actinomycin, dactinomycin, doxorubicin",Pharmaceuticals
+152,30049047,"L-asparaginase, cisplatin and carboplatin",7.58,KGS,5702,30,"Other anticancer drugs, n.e.s.",Pharmaceuticals
+153,30049049,Other anticancer drugs,359.84,KGS,23613,30,Other anticancer drugs,Pharmaceuticals
+154,30049057,Other antitubercular drugs,0.0,KGS,0,30,"Anti-tubercular drugs, other",Pharmaceuticals
+155,30049059,Other antimalarial drugs,0.08,KGS,56,30,Other anti-infective drugs,Pharmaceuticals
+156,30049062,Acetylsalicylic acid (aspirin) and formulations thereof,0.56,KGS,13104,30,Acetylsalicylic acid (aspirin) and formulations,Pharmaceuticals
+157,30049063,Ibuprofen with or without paracetamol or other compounds,0.06,KGS,251,30,Paracetamol and formulations,Pharmaceuticals
+158,30049065,Indomethacin,0.0,KGS,22,30,Ibuprofen and formulations,Pharmaceuticals
+159,30049066,"Mefenamic acid, diclofenac sodium, piroxicam, tenoxicam and meloxicam",0.65,KGS,5054,30,Nimesulide and formulations,Pharmaceuticals
+160,30049069,"Other nonsteroidal anti-inflammatory, analgesic and antipyretic drugs",17.39,KGS,14449,30,NSAIDs and other analgesics,Pharmaceuticals
+161,30049075,"Prazosin, terazosin, phentolamine and phenoxybenzamine",88.16,KGS,41389,30,Adrenergic blocking agents,Pharmaceuticals
+162,30049081,"Phenobarbitone, mephobarbital, primidone, phenytoin, carbamazepine, ethosuximide, valproic acid, diazepam, lamotrigine, gabapentin",7.57,KGS,116,30,Antiepileptic drugs,Pharmaceuticals
+163,30049082,Other antiepileptic drugs,1.98,KGS,1458,30,Benzodiazepine derivatives,Pharmaceuticals
+164,30049085,Veterinary medicinal preparations n.e.s.,37.46,KGS,119590,30,Veterinary medicinal preparations,Pharmaceuticals/Veterinary
+165,30049087,Antibacterial formulations n.e.s.,3.26,KGS,6849,30,"Antibacterial formulations, n.e.s.",Pharmaceuticals
+166,30049091,"Salbutamol, terbutaline, ephedrine, salmeterol and methyl xanthines",11.17,KGS,9212,30,"Salbutamol, terbutaline, etc.",Pharmaceuticals
+167,30049092,Plasma expanders,11.02,KGS,47144,30,Plasma expanders,Pharmaceuticals
+168,30049095,Carcino-chemotherapeutic drugs n.e.s.,62.15,KGS,2544,30,"Carcino-chemotherapeutic drugs, n.e.s.",Pharmaceuticals
+169,30049096,Ketamine,0.07,KGS,0,30,Ketamine,Pharmaceuticals
+170,30049099,"Other medicines put up for retail sale, n.e.s.",6619.63,KGS,6332750,30,"Other medicaments, n.e.s.",Pharmaceuticals
+171,30051010,Adhesive gauze bandage,0.56,KGS,526,30,Adhesive plasters,Medical Supplies
+172,30059050,Burn therapy dressing soaked in protective gel,5.99,KGS,56580,30,Burn therapy dressings,Medical Supplies
+173,30059060,Microporous surgical tapes,84.06,KGS,1238708,30,Sterile absorbable surgical dressings,Medical Supplies
+174,30059070,Corn removers and callous removers,0.02,KGS,31,30,"Wadding, gauze, bandages",Medical Supplies
+175,30059090,"Other dressing articles, n.e.s.",57.5,KGS,319844,30,"Other pharmaceutical goods, wadding, gauze, etc.",Medical Supplies
+176,30061010,"Sterile surgical catgut, similar materials, and sterile tissue adhesives for surgical wound closure",42.46,KGS,20191,30,Sterile surgical catgut,Medical Supplies
+177,30061020,"Sterile laminaria and laminaria tents, and sterile absorbable surgical/dental haemostatics",91.16,KGS,24864,30,Sterile tissue adhesives,Medical Supplies
+178,30063000,Opacifying preparations for X-ray exams; diagnostic reagents for administration to patients,686.25,KGS,1081120,30,Opacifying preparations for X-ray exams,Diagnostic Imaging
+179,30065000,First-aid boxes and kits,2.85,KGS,16060,30,First-aid boxes and kits,Medical Supplies
+180,30066010,Contraceptives based on hormones,90.51,KGS,132023,30,Chemical contraceptive preparations (hormonal),Pharmaceuticals
+181,30066030,Contraceptives based on spermicides,0.0,KGS,0,30,Contraceptives based on spermicides,Pharmaceuticals
+182,30067000,Gel preparations for use in human or veterinary medicine as lubricants during surgery or physical examination,30.8,KGS,219278,30,Gel preparations for organ ultrasonography,Diagnostic Imaging
+183,30069100,Appliances identifiable for ostomy use,125.06,KGS,318097,30,Appliances for ostomy,Medical Devices
+184,30069200,Waste pharmaceuticals,0.0,KGS,0,30,Waste pharmaceuticals,Waste Management
+185,30069300,"Placebos and blinded or double-blinded clinical trial kits, for clinical trial, put up in measured doses",105.45,KGS,14349,30,Blood-grouping reagents,Diagnostics/Lab Supplies
+186,33011200,Essential oils of orange,251.17,KGS,1533539,33,Orange oil (essential oil),Flavours & Fragrances
+187,33011300,Essential oils of lemon,32.28,KGS,215436,33,Lemon oil (essential oil),Flavours & Fragrances
+188,33011910,"Citronella oil, Ceylon type",3.09,KGS,24955,33,Citronella oil,Flavours & Fragrances
+189,33011990,Other essential oils of citrus fruit not elsewhere specified or included.,97.76,KGS,175500,33,Other essential oils of citrus fruit,Flavours & Fragrances
+190,33012400,Essential oil of peppermint (Mentha piperita),41.41,KGS,101566,33,Peppermint oil,Flavours & Fragrances
+191,33012911,Anise oil (aniseed oil),3.18,KGS,2889,33,Anise oil,Flavours & Fragrances
+192,33012912,Cajuput oil,0.0,KGS,36,33,Fennel oil,Flavours & Fragrances
+193,33012913,Cananga oil,0.67,KGS,958,33,Caraway oil,Flavours & Fragrances
+194,33019011,Fenugreek oleoresins,0.5,KGS,999,33,Fenugreek oleoresins,Food/Flavours
+195,33019012,Ginger oleoresins,5.57,KGS,22303,33,Curry leaf oleoresins,Food/Flavours
+196,33021010,Synthetic flavouring essences,63.29,KGS,339721,33,Synthetic flavouring essences,Flavours & Fragrances
+197,33021090,Other mixtures of odoriferous substances of a kind used in food/drink industries,988.39,KGS,5150253,33,"Flavouring agents, not elsewhere specified",Flavours & Fragrances
+198,33030010,Eau-de-cologne,362.76,KGS,1237087,33,Eau-de-cologne,Cosmetics & Toiletries
+199,33061010,Tooth powder,49.8,KGS,1503786,33,Tooth powder,Personal Care
+200,33072000,Personal deodorants and antiperspirants,260.27,KGS,3362860,33,Personal deodorants and antiperspirants,Personal Care
+201,33074100,Agarbatti and other odoriferous preparations which operate by burning,5.35,KGS,725881,33,Agarbatti and other odoriferous preparations which operate by burning,Flavours & Fragrances / FMCG
+202,33074900,Other odoriferous preparations used for deodorizing room (excluding agarbatti),94.19,KGS,2199221,33,Other odoriferous preparations which operate by burning,Flavours & Fragrances / FMCG
+203,33079010,"Depilatories (soap, other hair removing substances)",2.04,KGS,48793,33,Tooth powders,Personal Care
+204,35011000,"Casein, casein derivatives, casein glues",15.64,KGS,279977,35,"Casein, casein derivatives, casein glues",Chemicals / Industrial
+205,35019000,"Caseinate, other casein derivatives and casein glues",115.92,KGS,1752799,35,Other casein derivatives and glues,Chemicals / Industrial
+206,35021100,Dried egg albumin,22.49,KGS,159200,35,"Egg albumin, dried",Food Ingredients / Industrial
+207,35021900,Other egg albumin,0.26,KGS,431,35,Other egg albumin,Food Ingredients / Industrial
+208,35022000,Milk albumin including concentrates of two or more whey proteins,1436.71,KGS,18542161,35,Milk albumin,Food Ingredients / Industrial
+209,35029000,Other albuminates and other albumin derivatives,9.25,KGS,99701,35,"Other albumins, albuminates and derivatives",Food Ingredients / Industrial
+210,35030010,Isinglass,4.54,KGS,70514,35,"Gelatin, edible grade",Food Ingredients
+211,35030020,Gelatin edible n.e.s.,64.26,KGS,1051493,35,"Gelatin, pharmaceutical grade",Pharmaceuticals
+212,35030030,"Glues derived from bones, hides, etc. and fish glues",5.41,KGS,91635,35,Isinglass,Food Ingredients
+213,35030090,Others,332.08,KGS,6153156,35,Other gelatin and isinglass,Food Ingredients / Industrial
+214,35040010,Peptone,84.33,KGS,479190,35,Peptones,Chemicals / Industrial
+215,35040091,Isolated soya protein,361.51,KGS,11333874,35,Other protein substances (chemicals),Chemicals / Industrial
+216,35040099,"Other peptones, their derivatives and other proteins, n.e.s., including hide powder whether or not chromed",158.1,KGS,2802041,35,"Other protein substances, n.e.s.",Chemicals / Industrial
+217,35051010,Esterified starches,93.84,KGS,3105540,35,Dextrins and other modified starches,Food Ingredients / Chemicals
+218,35051090,Other dextrins and other modified starches,613.04,KGS,52811529,35,Other dextrins and modified starches,Food Ingredients / Chemicals
+219,35052000,Glues,75.08,KGS,1476971,35,Glues based on starches or modified starches,Chemicals / Adhesives
+220,35061000,"Products for use as glues/adhesives, retail sale not exceeding 1 kg",334.69,KGS,6738313,35,Products suitable for use as glues/adhesives (animal origin),Chemicals / Adhesives
+221,35069110,"Adhesives based on latex, phenol formaldehyde (PF), urea formaldehyde (UF) and polyvinyl",30.04,KGS,1248212,35,Printing paste,Chemicals / Textile
+222,35069190,Other adhesives based on polymers of headings 3901 to 3913 or on rubber,1298.63,KGS,46895203,35,Other prepared glues and adhesives (animal origin),Chemicals / Adhesives
+223,35069910,Synthetic glue with phenol urea/cresol (with formaldehyde) as the main component,29.26,KGS,593367,35,Prepared glues/adhesives for footwear,Chemicals / Adhesives
+224,35069991,"Adhesives based on starch, gum, latex, phenol formaldehyde, urea formaldehyde, and polyvinyl acetate",3.81,KGS,107119,35,Prepared glues/adhesives for paper industries,Chemicals / Adhesives
+225,35069999,Other prepared glues and other adhesives n.e.s.,1189.01,KGS,28829658,35,"Other prepared glues and adhesives, n.e.s.",Chemicals / Adhesives
+226,35071011,Animal rennet (microbial),0.0,KGS,0,35,"Rennet, animal origin",Food Ingredients / Dairy
+227,35079010,Industrial enzymes (textile assistant),118.98,KGS,2467095,35,Industrial enzymes (textile assistant),Chemicals / Textile
+228,35079020,"Pancreatin, pure (excluding medicament)",5.55,KGS,9170,35,Industrial enzymes (brewing),Chemicals / Food Processing
+229,35079030,Pepsin (excluding medicament),32.97,KGS,15199,35,Industrial enzymes (baking),Chemicals / Food Processing
+230,35079061,Streptokinase,3.83,KGS,163,35,Enzymes (enzyme preparations for detergents),Chemicals / Detergents
+231,35079062,Amylase enzymes,61.0,KGS,1392283,35,Enzymes (enzyme preparations for leather processing),Chemicals / Leather
+232,35079069,Other enzymes of microbial origin n.e.s.,445.8,KGS,11705974,35,"Other enzyme preparations, n.e.s.",Chemicals / Industrial
+233,35079071,"Papain, pure (pharmaceutical grade)",0.03,KGS,0,35,Enzymes for pharmaceutical industries,Pharmaceuticals
+234,35079079,Other enzymes of pharmaceutical use,103.42,KGS,93755,35,Other enzymes for pharmaceutical industries,Pharmaceuticals
+235,35079091,Enzymatic preparations containing foodstuffs,279.99,KGS,5816180,35,Enzymes for other industries,Chemicals / Industrial
+236,35079099,Other prepared enzymes n.e.s.,405.72,KGS,2540772,35,"Enzyme preparations, n.e.s.",Chemicals / Industrial
+237,38012000,Colloidal/semi-colloidal graphite,33.16,KGS,1505079,38,Colloidal or semi-colloidal graphite,Chemicals / Industrial
+238,38021000,Activated carbon,649.31,KGS,24677963,38,Activated carbon,Chemicals / Environmental
+239,38029011,Activated alumina,21.77,KGS,1793588,38,Bone charcoal,Chemicals / Industrial
+240,38029012,Activated bauxite,0.01,KGS,1985,38,Animal black,Chemicals / Industrial
+241,38040010,Lignin sulphonates,359.77,KGS,58983450,38,Lignin sulphonates,Chemicals / Industrial
+242,38040090,Other residual lyes,141.84,KGS,30357134,38,"Other residual lyes from wood pulp manufacture, etc.",Chemicals / Industrial
+243,38051010,Wood turpentine oil and spirit of turpentine,4.99,KGS,308448,38,Turpentine oil,Chemicals / Flavours
+244,38051020,Gum turpentine oil,1020.19,KGS,56654653,38,Pine oil,Chemicals / Flavours
+245,38051030,Sulphate turpentine oil,254.92,KGS,29760378,38,Dipentene,Chemicals / Industrial
+246,38059010,Terpenic oils produced by distillation or other treatment of coniferous woods,1.33,KGS,63890,38,Gum rosin,Chemicals / Industrial
+247,38059030,Sulphate turpentine,0.0,KGS,200,38,Tall oil,Chemicals / Industrial
+248,38059090,"Other (crude dipentine, etc.) n.e.s.",24.57,KGS,1354229,38,"Other resin acids, rosin derivatives",Chemicals / Industrial
+249,38061010,Gum rosin,384.32,KGS,39357796,38,Rosin size,Chemicals / Industrial
+250,38061090,Other rosin and resin acids,133.87,KGS,14552722,38,Other sizes,Chemicals / Industrial
+251,38062000,"Salts of rosin or resin acids or their derivatives, excluding salts of rosin adducts",44.58,KGS,1118055,38,"Salts of rosin, resin acids",Chemicals / Industrial
+252,38063000,Ester gums,63.22,KGS,3451187,38,Ester gums,Chemicals / Industrial
+253,38069010,Run gums,0.21,KGS,9000,38,Phenolic resins,Chemicals / Industrial
+254,38069090,"Other (run gums, rosin spirits, etc.) n.e.s.",128.0,KGS,6105089,38,Other synthetic resins,Chemicals / Industrial
+255,38070030,"Vegetable pitch of all kinds, brewers' pitch and similar compounds based on rosin/vegetable pitch",0.56,KGS,5073,38,Vegetable pitch and similar compounds based on rosin/vegetable pitch,Chemicals / Industrial
+256,38089111,Aluminium phosphate (e.g. Phostoxin),101.66,KGS,222310,38,Aluminium phosphide (Phostoxin),Agrochemicals / Pesticides
+257,38089121,Diagonal,0.0,KGS,0,38,Diazinon,Agrochemicals / Pesticides
+258,38089122,Methyl bromide,1.61,KGS,19756,38,Fenitrothion,Agrochemicals / Pesticides
+259,38089137,Synthetic pyrethrum,0.11,KGS,50,38,Synthetic pyrethrum,Agrochemicals / Pesticides
+260,38089191,"Repellents for insects such as flies, mosquitoes",0.33,KGS,1056,38,"Insect repellents for insects such as flies, mosquitoes",Agrochemicals / Pesticides
+261,38089192,Paper impregnated or coated with insecticide,0.0,KGS,20,38,Fenthion,Agrochemicals / Pesticides
+262,38089199,Other insecticides n.e.s.,3649.54,KGS,11583068,38,"Other insecticides, n.e.s.",Agrochemicals / Pesticides
+263,38089230,"Thiram (tetramethylthiuram disulfide), a dithiocarbamate fungicide",17.59,KGS,1097960,38,Thiram (tetramethylthiuram disulphide),Agrochemicals / Fungicides
+264,38089290,Other fungicides n.e.s.,2840.47,KGS,19279412,38,"Other fungicides, n.e.s.",Agrochemicals / Fungicides
+265,38089310,Chloromethyl phenoxy acetic acid (MCPA),0.75,KGS,38260,38,Simazine,Agrochemicals / Herbicides
+266,38089320,"2,4-dichlorophenoxy acetic acid and its esters",6.72,KGS,406071,38,Atrazine,Agrochemicals / Herbicides
+267,38089330,Gibberellic acid (GA acid),107.3,KGS,86241,38,Paraquat dichloride,Agrochemicals / Herbicides
+268,38089340,Plant growth regulators,234.2,KGS,33607471,38,Dicamba,Agrochemicals / Herbicides
+269,38089350,Weedicides and weed killing agents,582.1,KGS,3519394,38,Glufosinate ammonium,Agrochemicals / Herbicides
+270,38089390,"Other herbicides, anti-sprouting products",2169.64,KGS,37253621,38,"Other herbicides, anti-sprouting products",Agrochemicals / Herbicides
+271,38089400,Disinfectants,47.19,KGS,1302051,38,Disinfectants,Chemicals / Disinfectants
+272,38089910,"Pesticides, not elsewhere specified or included",93.59,KGS,598926,38,Pesticides not elsewhere specified,Agrochemicals / Pesticides
+273,38089990,Other similar products n.e.s.,1388.96,KGS,31268317,38,Other plant protection products,Agrochemicals
+274,38091000,Preparations with a basis of amylaceous substances,2.58,KGS,79230,38,"Finishing agents for textiles, paper, leather",Chemicals / Textile
+275,38099110,"Textile assistants, mordanting agents",40.69,KGS,1453322,38,"Preparation for textiles, containing amylase",Chemicals / Textile
+276,38099120,"Textile assistants, desizing agents",3.0,KGS,187960,38,"Preparation for textiles, containing protease",Chemicals / Textile
+277,38099130,"Textile assistants, dispersing agents",7.09,KGS,797577,38,"Preparation for textiles, containing lipase",Chemicals / Textile
+278,38099140,"Textile assistants, emulsifying agents",2.37,KGS,147180,38,"Preparation for textiles, containing cellulase",Chemicals / Textile
+279,38099150,"Textile assistant, hydro-sulphite formaldehyde compound (rongalite or formusul)",0.02,KGS,1000,38,"Other textile preparations, containing enzymes",Chemicals / Textile
+280,38099160,"Textile assistants, textile preservatives",4.7,KGS,31370,38,"Textile preparations, not containing enzymes",Chemicals / Textile
+281,38099170,"Textile assistants, water proofing agents",24.68,KGS,295314,38,"Other textile preparations, n.e.s.",Chemicals / Textile
+282,38099180,"Prepared textile glazings, dressings and mordants",0.38,KGS,14461,38,Leather processing agents,Chemicals / Leather
+283,38099190,Other finishing agents used in textile industry,520.89,KGS,21265571,38,"Other processing aids, n.e.s.",Chemicals / Industrial
+284,38099200,Preparations of a kind used in the paper industry,151.64,KGS,9879050,38,Finishing agents for paper or paperboard,Chemicals / Paper
+285,38099310,Fatty oil or pull-up oil,5.27,KGS,114907,38,Cement additives,Chemicals / Construction
+286,38099390,"Other finishing agents, dye carriers, and other preparations used in leather industry or similar, n.e.s.",241.83,KGS,7993225,38,Other additives for mineral products,Chemicals / Construction
+287,38119000,"Other prepared additives, anti-corrosive preparations and other prepared additives",350.83,KGS,9898371,38,"Other prepared additives, anti-corrosive prep., other prep. additives",Chemicals / Industrial
+288,38123100,"Mixtures of oligomers of 2,2,4-trimethyl-1,2-dihydroquinoline (TMQ)",94.62,KGS,4024199,38,Mixtures of oligomers of TMQ (antioxidants),Chemicals / Rubber
+289,38151210,Platinum/palladium catalysts on a base of activated carbon,364.35,KGS,245144,38,Platinum/palladium catalyst on activated carbon,Chemicals / Catalysts
+290,38210000,Prepared culture media for microorganisms development,952.45,KGS,1448289,38,Prepared culture media for microorganisms,Chemicals / Laboratory
+291,38231900,Other industrial monocarboxylic fatty acids,4739.01,KGS,567010466,38,Other industrial monocarboxylic fatty acid,Chemicals / Industrial
+292,38237030,Oleyl alcohol,1.43,KGS,40849,38,Oleyl alcohol,Industrial Chemicals
+293,38237040,Stearyl alcohol,0.27,KGS,29601,38,Stearyl alcohol,Industrial Chemicals
+294,38237090,Other industrial fatty alcohol,312.22,KGS,19235769,38,"Other alcohols and derivatives, n.e.s.",Industrial Chemicals
+295,38246010,Sorbitol in aqueous solution,12.82,KGS,1720433,38,Sorbitol in aqueous solution,Food Additives / Chemicals
+296,38246090,"Other sorbitol (not in aqueous solution), e.g. solid or uncommon forms, not specified elsewhere.",13.35,KGS,1634375,38,Other sorbitol (not in aqueous solution),Food Additives / Chemicals
+297,38248100,Containing oxirane (ethylene oxide),0.35,KGS,5976,38,Mixtures containing perhalogenated derivatives of acyclic hydrocarbons,Industrial Chemicals
+298,38248300,"Containing tris(2,3-dibromopropyl) phosphate",0.0,KGS,0,38,Mixtures containing polybrominated diphenyl ethers,Industrial Chemicals
+299,38248400,"Containing aldrin, camphechlor, chlordane, chlordecone, DDT, dieldrin",0.0,KGS,1,38,Mixtures containing polybrominated biphenyls,Industrial Chemicals
+300,38248700,"Containing perfluorooctanesulphonic acid, its salts, perfluorooctane sulphonamides, or perfluorooctane sulphonyl fluoride",0.07,KGS,80,38,Mixtures containing perfluorooctane sulfonates (PFOS),Industrial Chemicals
+301,38248800,"Containing tetra-, penta-, hexa-, hepta- or octabromodiphenyl ethers",0.0,KGS,0,38,Mixtures containing polybrominated terphenyls,Industrial Chemicals
+302,38248900,Containing short-chain chlorinated paraffins,0.42,KGS,3857,38,Other mixtures of halogenated organic compounds,Industrial Chemicals
+303,38249100,Mixtures and preparations mainly of methyl methyl methylphosphonate and methylphosphonate,28.46,KGS,2191843,38,Mixtures for the fire protection of textiles,Industrial Chemicals
+304,38249200,Polyglycol esters of methylphosphonic acid,18.61,KGS,414392,38,Mixtures for the fire protection of paper,Industrial Chemicals
+305,38249900,"Other prepared binders for foundry moulds/cores, not specifically named; or other chemical preparations not classified elsewhere within this group.",9794.39,KGS,1404820025,38,Other chemical industry preparations n.e.s.,Industrial Chemicals
+306,38260000,"Biodiesel and mixtures, not containing or containing less than 70% by weight of petroleum or oils of bituminous minerals",0.01,KGS,73,38,Biodiesel and mixtures thereof,Bioenergy / Chemicals
+307,38275100,Mixtures and preparations containing trifluoromethane (HFC-23),0.37,KGS,840,38,Mixtures containing trifluoromethane (HFC-23),Industrial Chemicals
+308,38276100,"Containing 15% or more by mass of 1,1,1-trifluoroethane (HFC-143a)",70.56,KGS,2628350,38,"Mixtures with ≥15% 1,1,1-trifluoroethane (HFC-143a)",Industrial Chemicals
+309,38276200,"Other, not included in sub-heading above, containing 55% or more by mass of HFC-125 but not containing unsaturated fluorinated derivative of acyclic HFO",1.55,KGS,66000,38,Mixtures with perfluoroethane (C2F6),Industrial Chemicals
+310,38276300,"Other, not included in the sub-headings above, containing 40% or more by mass of pentafluoroethane (HFC-125)",33.52,KGS,1053231,38,"Mixtures with perfluoropropane (C3F8, C3F6)",Industrial Chemicals
+311,38276400,"Other, not included in the sub-heading above, containing 30% or more by mass of 1,1,1,2-HFC-134a but not containing unsaturated fluorinated derivative of HFO",6.36,KGS,185620,38,Mixtures with perfluorobutane (C4F10),Industrial Chemicals
+312,38276500,"Other, not included in the sub-heading above, containing 20% or more by mass of HFC-32 and 20% or more by mass of HFC-125",2.28,KGS,44083,38,Mixtures with perfluorocyclobutane,Industrial Chemicals
+313,38276800,"Other, not included in the sub-headings above, containing substances of sub-headings 290341 to 29348",1.78,KGS,9534,38,"Other perfluorinated, polyfluorinated and hydrofluorinated mixtures",Industrial Chemicals
+314,52010013,"Indian cotton of staple length over 20.5 mm (26/32"") and below 24.5 mm (30/32""), excluding Bengal variety",0.0,KGS,4,52,"Indian cotton, staple length 20.5-24.5 mm (excl. Bengal)",Textiles / Raw Materials
+315,52010015,Indian cotton of staple length 28.5mm (1.4/32) and above but below 34.5mm,63.62,"""",7052094,52,"Indian cotton, staple length 24.5-25.5 mm (excl. Bengal)",Textiles / Raw Materials
+316,52010019,Indian cotton of staple length 34.5mm and above (1.12/32),0.01,KGS,33,52,"Indian cotton, other staple lengths (excl. Bengal)",Textiles / Raw Materials
+317,52010021,"Cotton, other than Indian, of staple length not exceeding 20.0 mm",5.59,KGS,372030,52,"Bengal cotton, staple length up to 20.0 mm",Textiles / Raw Materials
+318,52010022,"Cotton, other than Indian, of staple length exceeding 20.0mm but not exceeding 24.5mm",0.0,KGS,0,52,"Bengal cotton, staple length 20.5-24.5 mm",Textiles / Raw Materials
+319,52010023,"Cotton, other than Indian, of staple length exceeding 24.5mm but not exceeding 27.0mm",12.02,KGS,883819,52,"Bengal cotton, staple length 24.5-25.5 mm",Textiles / Raw Materials
+320,52010024,"Cotton, other than Indian, of staple length exceeding 27.0mm but not exceeding 32.0mm",6256.35,KGS,378159266,52,"Bengal cotton, staple length above 25.5 mm",Textiles / Raw Materials
+321,52010025,"Cotton, other than Indian, of staple length exceeding 32.0mm",2066.37,KGS,64649582,52,"Bengal cotton, other staple lengths",Textiles / Raw Materials
+322,52021000,Yarn waste (including thread waste),60.21,KGS,14590778,52,"Cotton yarn waste, incl. thread waste",Textiles / Spinning
+323,52029100,Cotton waste (garnetted stock),12.11,KGS,1777141,52,Garnetted stock of cotton,Textiles / Spinning
+324,52029900,Other cotton waste,63.81,KGS,20667900,52,Other cotton waste,Textiles / Spinning
+325,52030000,Cotton carded or combed,9.03,KGS,227520,52,"Cotton, carded or combed",Textiles / Spinning
+326,52041110,Cotton sewing thread containing any synthetic staple fibre,0.11,KGS,630,52,"Cotton yarn, unbleached, not for retail sale (≤14 count)",Textiles / Yarn
+327,52041120,"Cotton thread, darning",0.42,KGS,1449,52,"Cotton yarn, unbleached, not for retail sale (15-20 count)",Textiles / Yarn
+328,52041130,Embroidery cotton thread,0.11,KGS,3599,52,"Cotton yarn, unbleached, not for retail sale (21-39 count)",Textiles / Yarn
+329,52041140,Cotton sewing thread not containing any synthetic staple fibre,0.18,KGS,6439,52,"Cotton yarn, unbleached, not for retail sale (≥40 count)",Textiles / Yarn
+330,52041190,Others,1.14,KGS,6559,52,"Cotton yarn, unbleached, not for retail sale (other counts)",Textiles / Yarn
+331,52041900,"Sewing thread containing less than 85% by weight of cotton, not put up for retail sale",0.38,KGS,2957,52,"Other cotton yarn, unbleached, not for retail sale",Textiles / Yarn
+332,52042010,Cotton sewing thread containing any synthetic staple fibre,0.02,KGS,267,52,"Cotton yarn, bleached, not for retail sale (≤14 count)",Textiles / Yarn
+333,52042020,"Cotton thread, darning",0.0,KGS,24,52,"Cotton yarn, bleached, not for retail sale (15-20 count)",Textiles / Yarn
+334,52042030,Embroidery cotton thread,0.24,KGS,702,52,"Cotton yarn, bleached, not for retail sale (21-39 count)",Textiles / Yarn
+335,52042040,Cotton sewing thread not containing any synthetic staple fibre,0.14,KGS,2727,52,"Cotton yarn, bleached, not for retail sale (≥40 count)",Textiles / Yarn
+336,52042090,Other cotton sewing thread,0.91,KGS,142899,52,"Cotton yarn, bleached, not for retail sale (other counts)",Textiles / Yarn
+337,52082230,Shirting fabrics,10.27,SQM,536745,52,Shirting fabrics,Textiles / Fabrics
+338,52084230,Shirting fabrics,69.09,SQM,3098108,52,Shirting fabrics,Textiles / Fabrics
+339,52084320,Shirting fabrics,43.61,SQM,3719032,52,Shirting fabrics,Textiles / Fabrics
+340,52085990,Shirting fabrics,5.92,SQM,215097,52,Shirting fabrics,Textiles / Fabrics
+341,52094200,Denim,73.61,SQM,6689363,52,Denim,Textiles / Fabrics
+342,52114200,"Denim of yarns of different colours, mixed cotton fabrics weighing >200 gsm",116.91,SQM,250608321,52,"Denim of yarns of different colors, weighing >200 GSM",Textiles / Fabrics
+343,52122300,Other dyed woven fabrics weighing >200 g/m²,12.64,SQM,580841,52,"Other dyed woven fabrics, weighing >200 g/m2",Textiles / Fabrics
+344,52122400,Other woven fabrics of cotton of yarns of different colours weighing more than 200 gsm,1.75,SQM,54024,52,"Other dyed woven fabrics, weighing ≤200 g/m2",Textiles / Fabrics
+345,52122500,Other printed woven fabrics weighing more than 200 g/m²,0.2,SQM,15208,52,"Other dyed woven fabrics, blends",Textiles / Fabrics
+346,70172000,Laboratory hygienic/pharmaceutical glassware of other glass with a linear coefficient of expansion not exceeding 5x10⁻⁶/K between 0-300°C,75.58,KGS,739993,70,"Laboratory, hygienic/pharmaceutical glassware",Laboratory Equipment
+347,70179010,Other graduated/calibrated laboratory glassware,3.13,KGS,42724,70,"Laboratory glassware, graduated/marked",Laboratory Equipment
+348,70179020,Other pharmaceutical glassware,10.33,KGS,885509,70,"Laboratory glassware, ungraduated",Laboratory Equipment
+349,70179090,Other laboratory glassware,191.87,KGS,1447269,70,Other laboratory glassware,Laboratory Equipment
+350,84186100,Compression type units whose condensers are heat exchangers,180.79,NOS,27081,84,Compression refrigeration units (condensers: heat exchangers),HVAC / Industrial
+351,84192010,Autoclaves,50.52,NOS,3120,84,Autoclaves,Medical / Industrial Eqpt
+352,84192090,Sterilisers n.e.s.,274.47,NOS,502712,84,Other sterilizers (not autoclave),Medical / Industrial Eqpt
+353,84198990,"Other industrial/laboratory heat process equipment (excluding domestic use, furnaces/ovens)",2010.12,NOS,4227235,84,Other industrial heat process equipment,Industrial Equipment
+354,84211910,Bowl centrifuges,24.3,NOS,464,84,Bowl centrifuges,Laboratory / Industrial
+355,84212110,Ion exchanger plant/apparatus,96.42,NOS,119118,84,Ion exchanger plant/apparatus,Water Treatment / Industrial
+356,84212900,Other filtering/purifying machinery and apparatus for liquids,2041.84,NOS,103903407,84,Other filtering/purifying machinery for liquids,Industrial Equipment
+357,84223000,"Machinery for filling, closing, sealing, capsuling or labelling bottles, cans, boxes, bags or other containers; machinery for aerating beverages",3484.28,KGS,9863997,84,"Machinery for filling, closing, labelling, aerating beverages",Industrial Equipment
+358,84224000,Other packing/wrapping machinery including heat-shrink wrapping machinery,2184.14,KGS,8651520,84,Packing or wrapping machinery,Packaging Equipment
+359,84238110,Beam scale,2.12,NOS,10431,84,Beam scale,Weighing Equipment
+360,84238900,Other weighing machinery,65.0,NOS,357435,84,Other weighing machinery,Weighing Equipment
+361,84291110,Angle dozers,121.54,NOS,64,84,Angle dozers,Construction Equipment
+362,84368090,Others (including bee-keeping machinery),106.26,NOS,618790,84,Other agricultural machinery (incl. bee-keeping),Agricultural Equipment
+363,84378010,Flour mill machinery,112.64,NOS,73893,84,Flour mill machinery,Food Processing
+364,84741010,"Sorting, screening, washing machines etc. of coal",14.82,NOS,582,84,"Sorting, screening & washing machinery for coal",Industrial Equipment
+365,84798910,Soap manufacturing machinery,56.55,NOS,4519,84,Soap-manufacturing machinery,Industrial Equipment
+366,84798930,Mechanical shifting machines,118.51,NOS,1837,84,Mechanical shifting machines,Industrial Equipment
+367,84799090,Parts of other machinery and mechanical appliances having individual functions,4665.61,KGS,23820008,84,Parts for other machines/appliances,Industrial Equipment
+368,84861000,Machines and apparatus for the manufacture of boules or wafers,53.6,NOS,164416,84,Machines/apparatus for boules/wafer manufacture,Electronics / Machinery
+369,85143090,OTHERS,4.48,NOS,2,85,"Other industrial furnaces, ovens, etc.",Industrial Equipment
+370,90111000,Stereoscopic microscopes,32.66,NOS,2898,90,Stereoscopic microscopes,Laboratory Equipment
+371,90112000,"Other microscopes, for microphotography, microcinematography, or microprojection",16.65,NOS,1654,90,Compound optical microscopes,Laboratory Equipment
+372,90118000,Other microscopes,605.64,NOS,844921,90,"Other microscopes (polarising, phase contrast, etc.)",Laboratory Equipment
+373,90119000,Parts and accessories of heading 9011,233.25,KGS,162412,90,Parts/accessories for microscopes,Laboratory Equipment
+374,90121010,Electron microscopes fitted with equipment for handling semiconductor wafers or reticles,119.28,NOS,285,90,Microscopes for photomicrography,Laboratory Equipment
+375,90121090,Others,336.28,NOS,34531,90,Other microscopes for micrography,Laboratory Equipment
+376,90138000,"Other devices, appliances and instruments",313.84,NOS,3094619,90,Other optical devices or instruments,Laboratory Equipment
+377,90160010,Electric balances,194.02,NOS,43091,90,Electric balances,Laboratory Equipment
+378,90181100,Electrocardiographs,194.92,NOS,2720556490,90,Electrocardiographs,Medical Equipment
+379,90181210,Linear ultrasound scanner,431.26,NOS,89617,90,Portable ultrasound scanners,Medical Equipment
+380,90181290,Other electro-diagnostic apparatus,1496.57,NOS,12958824,90,Other ultrasound scanners,Medical Equipment
+381,90181300,Magnetic resonance imaging apparatus,2683.34,NOS,907138,90,Magnetic resonance imaging equipment,Medical Equipment
+382,90181400,Scintigraphic apparatus,178.82,NOS,1438551,90,Scanning tomography apparatus,Medical Equipment
+383,90181910,Electroencephalographs,30.06,NOS,26376,90,Electrodes for medical use,Medical Equipment
+384,90181920,Echo cardiograph,12.11,NOS,664,90,Catheters,Medical Equipment
+385,90181990,Other electro-diagnostic apparatus,677.65,NOS,3241421,90,Other electro-medical instruments,Medical Equipment
+386,90182000,Ultra-violet/infra-red ray apparatus,15.08,NOS,2444897,90,Ultraviolet/infrared ray apparatus,Medical Equipment
+387,90183100,"Syringes, with or without needles",1265.36,NOS,897718393,90,"Syringes, with/without needles",Medical Equipment
+388,90183210,Suture needles,154.05,KGS,470694,90,Tubular metal needles,Medical Equipment
+389,90183920,Cardiac catheters,578.98,NOS,5971943,90,Cardiac catheters,Medical Equipment
+390,90183930,Cannulae,132.52,NOS,323827573,90,Other catheters,Medical Equipment
+391,90183990,Others,2348.42,NOS,4188826430,90,"Other needles, catheters, cannulae, etc.",Medical Equipment
+392,90189031,Artificial dialysis apparatus and haemodialyser (portable/non-portable),862.93,NOS,24070497,90,Artificial dialysis apparatus and haemodialyser,Medical Equipment
+393,90189032,Blood transfusion apparatus including plastic containers/bags,207.29,NOS,5577308,90,Anaesthetic apparatus,Medical Equipment
+394,90189041,Anaesthetic equipment,163.27,NOS,182369,90,"Surgical instruments, scissors type",Medical Equipment
+395,90189042,ENT precision instruments,51.94,NOS,1183569,90,"Surgical instruments, forceps type",Medical Equipment
+396,90189043,Acupuncture apparatus,1.57,NOS,20707495,90,"Surgical instruments, clamps",Medical Equipment
+397,90189044,Endoscopes,784.39,NOS,234906,90,"Surgical instruments, retractors",Medical Equipment
+398,90189091,Arterial and venous shunt,3.71,NOS,5464,90,"Other surgical instruments, n.e.s.",Medical Equipment
+399,90189092,Baby incubator,22.67,NOS,8454,90,"Medical instruments, n.e.s.",Medical Equipment
+400,90189093,Heart-lung machine,72.2,NOS,11192,90,Heart-lung machines,Medical Equipment
+401,90189094,Defibrillators,117.09,NOS,78806,90,Defibrillators,Medical Equipment
+402,90189095,Fibrescope,27.9,NOS,1195,90,Fibrescopes,Medical Equipment
+403,90189096,Laparoscope,46.32,NOS,4215,90,Laparoscopes,Medical Equipment
+404,90189097,Nephrostomy/lithotripsy instruments,25.29,NOS,87,90,Ultrasonic lithotripsy apparatus,Medical Equipment
+405,90189098,Apparatus for nerve stimulation,6.99,NOS,2366022,90,Ultrasound therapy apparatus,Medical Equipment
+406,90189099,Other surgical instruments and appliances (including veterinary),4116.5,NOS,580771939,90,"Other medical, surgical, dental, or veterinary instruments n.e.s.",Medical Equipment
+407,90192010,Oxygen therapy apparatus,323.48,NOS,3588034,90,Oxygen therapy apparatus,Medical Equipment
+408,90192090,Others,1322.05,NOS,952096290,90,"Other ozone, oxygen, aerosol, therapy, and respiratory apparatus",Medical Equipment
+409,90200000,"Other breathing appliances and gas masks, excluding protective masks with mechanical parts or replaceable filters",189.86,NOS,1013169,90,Breathing appliances and gas masks,Medical Equipment
+410,90211000,Orthopaedic or fracture appliances,423.5,NOS,2661678,90,Orthopaedic or fracture appliances,Medical Equipment
+411,90215000,"Pacemakers for stimulating heart muscles, excluding parts and accessories",482.34,NOS,92836,90,Pacemakers for stimulating heart muscles,Medical Equipment
+412,90219010,Parts and accessories of hearing aids,249.93,KGS,25738,90,Parts and accessories for artificial joints,Medical Equipment
+413,90221200,Computed tomography apparatus,1444.54,NOS,51868,90,Computed tomography (CT) apparatus,Medical Imaging
+414,90221410,X-RAY GENERATORS AND APPARATUS (NON-PORTABLE),80.83,NOS,1540,90,Dental X-ray apparatus,Medical Imaging
+415,90221420,"X-ray examination/treatment tables, chairs and the like",62.06,NOS,283,90,Mammography X-ray apparatus,Medical Imaging
+416,90221490,Other X-ray machines for medical uses,2150.89,NOS,2611,90,Other X-ray apparatus using X-rays,Medical Imaging
+417,90221900,Apparatus based on use of X-rays for other uses including radiography/radiotherapy,1053.87,NOS,933405,90,Other X-ray apparatus,Medical Imaging
+418,90222100,"Apparatus based on use of alpha, beta/gamma radiations for medical, surgical, dental, veterinary use including radiography/radiotherapy",113.18,NOS,1208,90,"Alpha, beta or gamma radiation apparatus",Medical Imaging
+419,90223000,"X-ray tubes (for medical, industrial, or research use)",664.05,NOS,41583,90,X-ray tubes,Medical Imaging
+420,90229010,X-ray valves,5.67,NOS,33,90,X-ray digital detectors,Medical Imaging
+421,90229020,Radiation generation units,16.8,NOS,714,90,X-ray generator assemblies,Medical Imaging
+422,90229040,"X-ray examination or treatment tables, chairs, and similar apparatus (including parts and accessories)",41.75,NOS,13287,90,"X-ray exam or treatment tables, chairs, and the like",Medical Imaging
+423,90229090,Others,2741.15,KGS,1980150,90,Parts/accessories of X-ray or radiation apparatus,Medical Imaging
+424,90251110,Clinical thermometer,1.7,NOS,1677610,90,"Thermometers, liquid-filled, for direct reading",Laboratory Equipment
+425,90251190,Others,28.5,NOS,302592,90,Other liquid-filled thermometers,Laboratory Equipment
+426,90251910,Digital thermometers,62.21,NOS,6444058,90,Clinical digital thermometers,Laboratory Equipment
+427,90251920,Pyrometers (including radiation pyrometer),18.35,NOS,37282,90,Other electronic thermometers,Laboratory Equipment
+428,90251990,Others,362.34,NOS,5215181,90,"Other thermometers/pyrometers, not elsewhere specified",Laboratory Equipment
+429,90258010,Hydrometers and similar floating instruments,7.56,NOS,278945,90,Hydrometers,Laboratory Equipment
+430,90258020,"Barometers, not combined with other instruments",1.75,NOS,589,90,Lactometers,Laboratory Equipment
+431,90258030,Lactometer,2.49,NOS,3544,90,Psychrometers,Laboratory Equipment
+432,90258090,Other similar floating instruments,237.23,NOS,2998453,90,"Other hydrometers, densimeters, etc.",Laboratory Equipment
+433,90259000,Parts and accessories of instruments of heading 9025,276.62,KGS,701042,90,"Parts and accessories for hydrometers, thermometers, etc.",Laboratory Equipment
+434,90261010,Flow meters (gas),521.32,NOS,529976,90,Instruments for measuring water flow rate,Industrial Equipment
+435,90261020,Level gauges (level indicators and level regulators),246.64,NOS,3470464,90,Instruments for measuring groundwater,Industrial Equipment
+436,90261090,Other instruments and apparatus for measuring or checking the flow,717.09,NOS,4192111,90,Other flow/level measuring instruments,Industrial Equipment
+437,90262000,Instruments and apparatus for measuring or checking pressure,1761.43,NOS,35123319,90,Pressure sensors and pressure measuring instruments,Industrial Equipment
+438,90268010,Heat meters,29.04,NOS,91359,90,Environmental monitors,Laboratory/Industrial
+439,90268090,"Other instruments and apparatus for measuring, checking, or automatically controlling the flow, depth, pressure, etc.",905.46,NOS,11379432,90,Other measuring/checking instruments (chemical/physical),Laboratory/Industrial
+440,90269000,Parts and accessories of instruments/apparatus of heading 9026,1000.45,NOS,72815616,90,Parts for measuring/checking instruments (9026),Laboratory/Industrial
+441,90271000,Gas or smoke analysis apparatus,2248.5,NOS,6607729,90,Gas/Smoke analysis apparatus,Laboratory/Industrial
+442,90272000,Chromatographs and electrophoresis instruments,2768.77,NOS,149672,90,Chromatographs and electrophoresis instruments,Laboratory Equipment
+443,90273010,Spectrometers,829.78,NOS,10998,90,"Spectrometers, including UV/visible",Laboratory Equipment
+444,90273020,Spectrophotometers,347.99,NOS,18560,90,Spectrophotometers,Laboratory Equipment
+445,90273090,Others,503.22,NOS,273533,90,Other spectrometers,Laboratory Equipment
+446,90275010,Photometers,33.17,NOS,8201,90,Polarimeters,Laboratory Equipment
+447,90275020,Refractometers,33.55,NOS,26483,90,Colorimeters,Laboratory Equipment
+448,90275030,Polarimeters,20.93,NOS,459,90,Refractometers,Laboratory Equipment
+449,90275090,Others,2526.62,NOS,255550,90,Other optical radiation instruments (UV/vis/IR),Laboratory Equipment
+450,90278090,Others,2.0,NOS,0,90,"Other instruments for physical/chemical analysis, n.e.s.",Laboratory Equipment
+451,90278100,Mass spectrometers,712.66,NOS,6536,90,Gas/liquid chromatographs,Laboratory Equipment
+452,90278910,Viscometers,76.4,NOS,4511,90,Karl Fischer titrators,Laboratory Equipment
+453,90278920,Calorimeters,68.01,NOS,405,90,Polarograph instruments,Laboratory Equipment
+454,90278930,Instruments and apparatus for measuring the surface or interfacial tension of liquids,70.76,NOS,25827827,90,Calorimetric instruments,Laboratory Equipment
+455,90278990,"Other physical or chemical analysis instruments and apparatus, not specified elsewhere (e.g., specialized or multi-purpose devices).",2783.48,NOS,3512552,90,Other electrochemical/analytical instruments,Laboratory Equipment
+456,90279010,Microtomes,39.99,KGS,23125,90,Microtomes,Laboratory Equipment
+457,90279020,Printed circuit assemblies for the goods,27.55,KGS,8996,90,Laboratory centrifuge rotors,Laboratory Equipment
+458,90279090,Other parts and accessories of heading 9027,3239.9,KGS,2004187,90,Parts/accessories for above lab instruments,Laboratory Equipment
+459,90281000,Gas meters,127.65,NOS,182350,90,Gas meters,Industrial Equipment
+460,90282000,Liquid meters,54.59,NOS,464843,90,Liquid meters,Industrial Equipment
+461,90302000,Cathode-ray oscilloscopes and cathode-ray oscillographs,397.47,NOS,26085,90,Oscilloscopes and spectrum analyzers,Electronics/IT
+462,90308910,Scintillator counters,15.67,NOS,22578,90,Digital multimeters,Electronics/IT
+463,90308920,Vectroscope,0.0,NOS,0,90,Data loggers,Electronics/IT

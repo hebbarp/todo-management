@@ -33,21 +33,17 @@ def send_whatsapp_web(phone_number, message):
     # WhatsApp Web URL
     whatsapp_url = f"https://web.whatsapp.com/send?phone={clean_number}&text={encoded_message}"
     
-    print("WHATSAPP MESSAGE SENDER")
+    print("📱 WHATSAPP MESSAGE SENDER")
     print("=" * 50)
-    print(f"To: {phone_number}")
-    print("Opening WhatsApp Web...")
-    print("\nMessage preview:")
+    print(f"📞 To: {phone_number}")
+    print("🌐 Opening WhatsApp Web...")
+    print("\n📝 Message preview:")
     print("-" * 40)
-    # Safely print message for all terminals
-    try:
-        print(message)
-    except UnicodeEncodeError:
-        print(message.encode('utf-8'))
+    print(message)
     print("-" * 40)
-    print("\nWhatsApp Web will open in your browser")
-    print("Message will be pre-filled - just click Send!")
-    print("Make sure you're logged into WhatsApp Web")
+    print("\n✅ WhatsApp Web will open in your browser")
+    print("📋 Message will be pre-filled - just click Send!")
+    print("⚠️  Make sure you're logged into WhatsApp Web")
     
     # Open WhatsApp Web
     webbrowser.open(whatsapp_url)
@@ -68,9 +64,9 @@ def main():
     success = send_whatsapp_web(phone_number, message)
     
     if success:
-        print("\nWhatsApp Web opened successfully!")
+        print("\n🎉 WhatsApp Web opened successfully!")
     else:
-        print("\nFailed to open WhatsApp Web")
+        print("\n❌ Failed to open WhatsApp Web")
         sys.exit(1)
 
 if __name__ == "__main__":
