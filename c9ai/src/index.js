@@ -25,16 +25,14 @@ const c9ai = new C9AI();
 // Interactive mode
 async function interactiveMode() {
     console.log(banner);
-    console.log(chalk.green('\\n📋 Available Commands:'));
-    console.log(chalk.white('  🤖 claude <prompt>   - Deep reasoning and analysis'));
-    console.log(chalk.white('  ✨ gemini <prompt>   - Creative and multimodal tasks'));
-    console.log(chalk.white('  🔄 switch <model>    - Switch default AI model'));
-    console.log(chalk.white('  📋 todos             - Manage your tasks'));
-    console.log(chalk.white('  📊 analytics         - View productivity insights'));
-    console.log(chalk.white('  🔧 tools             - Available local tools'));
-    console.log(chalk.white('  ⚙️  config            - System configuration'));
-    console.log(chalk.white('  📖 help              - Show help'));
-    console.log(chalk.white('  🚪 exit              - Quit c9ai\\n'));
+    console.log(chalk.cyan('\nNew in this version: Type @claude or @gemini to start an interactive session!'));
+
+    console.log(chalk.green('\nQuick Actions:'));
+    console.log(chalk.white('  claude <prompt>   - Quick prompt to Claude'));
+    console.log(chalk.white('  gemini <prompt>   - Quick prompt to Gemini'));
+    console.log(chalk.white('  todos             - Manage your tasks'));
+    console.log(chalk.white('  help              - Show all commands'));
+    console.log(chalk.white('  exit              - Quit c9ai\n'));
 
     while (true) {
         try {
@@ -70,23 +68,7 @@ async function interactiveMode() {
 program
     .name('c9ai')
     .description('C9 AI - Autonomous AI-Powered Productivity System')
-    .version('1.0.0');
-
-program
-    .command('claude <prompt...>')
-    .description('Execute prompt with Claude AI')
-    .option('-a, --autonomous', 'Enable autonomous execution with tool use')
-    .action(async (prompt, options) => {
-        await c9ai.runAI('claude', prompt.join(' '), options);
-    });
-
-program
-    .command('gemini <prompt...>')
-    .description('Execute prompt with Gemini AI')
-    .option('-a, --autonomous', 'Enable autonomous execution with tool use')
-    .action(async (prompt, options) => {
-        await c9ai.runAI('gemini', prompt.join(' '), options);
-    });
+    .version('2.0.0');
 
 program
     .command('switch <model>')
@@ -96,10 +78,10 @@ program
     });
 
 program
-    .command('todos [action]')
-    .description('Manage todos (list|add|sync)')
-    .action(async (action) => {
-        await c9ai.handleTodos(action);
+    .command('todos [action] [task...]')
+    .description('Manage todos (list|add|execute|sync)')
+    .action(async (action, task) => {
+        await c9ai.handleTodos(action, task);
     });
 
 program
@@ -114,6 +96,21 @@ program
     .description('List available tools')
     .action(async () => {
         await c9ai.listTools();
+    });
+
+program
+    .command('models [action] [model]')
+    .description('Manage local AI models (list|install|remove|status)')
+    .action(async (action, model) => {
+        await c9ai.handleModels(action, model);
+    });
+
+program
+    .command('logo')
+    .alias('banner')
+    .description('Display the c9ai banner')
+    .action(() => {
+        console.log(banner);
     });
 
 program

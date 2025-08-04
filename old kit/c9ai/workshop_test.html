@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workshop Form Test - Digital Ocean Debug</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .debug-section { background: #f8f9fa; padding: 15px; margin: 15px 0; border-radius: 5px; }
+        .form-group { margin: 10px 0; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input, select { width: 300px; padding: 8px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px; }
+        button { background: #667eea; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        .error { background: #ffe6e6; color: #d63031; padding: 10px; border-radius: 5px; margin: 10px 0; }
+        .success { background: #e6ffe6; color: #00b894; padding: 10px; border-radius: 5px; margin: 10px 0; }
+        .debug-info { background: #e8f4fd; color: #0984e3; padding: 10px; border-radius: 5px; margin: 10px 0; font-family: monospace; white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+    <h1>🔧 Workshop Form Debug Tool</h1>
+    <p>Use this to test workshop registration on your Digital Ocean server</p>
+
+    <div class="debug-section">
+        <h3>📊 Server Environment Check</h3>
+        <button onclick="checkEnvironment()">Check Server Status</button>
+        <div id="envResult"></div>
+    </div>
+
+    <div class="debug-section">
+        <h3>📝 Workshop Registration Test</h3>
+        <form id="workshopForm">
+            <div class="form-group">
+                <label>Full Name *</label>
+                <input type="text" name="fullName" value="Test Executive" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Email *</label>
+                <input type="email" name="email" value="test@company.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Phone *</label>
+                <input type="tel" name="phone" value="+1-555-0123" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Company *</label>
+                <input type="text" name="company" value="Test Corporation" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Position *</label>
+                <select name="position" required>
+                    <option value="">Select position</option>
+                    <option value="CEO" selected>CEO</option>
+                    <option value="CTO">CTO</option>
+                    <option value="VP">VP</option>
+                    <option value="Director">Director</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label>Experience Level</label>
+                <select name="experience">
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate" selected>Intermediate</option>
+                    <option value="Advanced">Advanced</option>
+                    <option value="Expert">Expert</option>
+                </select>
+            </div>
+            
+            <button type="submit">🎯 Test Workshop Registration</button>
+        </form>
+        
+        <div id="formResult"></div>
+    </div>
+
+    <div class="debug-section">
+        <h3>🔍 Debug Information</h3>
+        <div id="debugInfo"></div>
+    </div>
+
+    <script>
+        async function checkEnvironment() {
+            const resultDiv = document.getElementById('envResult');
+            resultDiv.innerHTML = '<div class="debug-info">Checking server environment...</div>';
+            
+            try {
+                const response = await fetch('server_debug.php');
+                const data = await response.json();
+                
+                let html = '<div class="debug-info">Server Environment:\n' + JSON.stringify(data, null, 2) + '</div>';
+                
+                // Highlight potential issues
+                if (!data.php_extensions.sqlite3) {
+                    html += '<div class="error">❌ SQLite3 extension not loaded!</div>';
+                }
+                if (!data.database || data.database.connection !== 'success') {
+                    html += '<div class="error">❌ Database connection failed!</div>';
+                }
+                if (!data.file_permissions['workshop_registrations.db']?.writable) {
+                    html += '<div class="error">❌ Database file not writable!</div>';
+                }
+                
+                resultDiv.innerHTML = html;
+            } catch (error) {
+                resultDiv.innerHTML = '<div class="error">❌ Environment check failed: ' + error.message + '</div>';
+            }
+        }
+
+        document.getElementById('workshopForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const data = {
+                fullName: formData.get('fullName'),
+                email: formData.get('email'),
+                phone: formData.get('phone'),
+                company: formData.get('company'),
+                position: formData.get('position'),
+                experience: formData.get('experience') || 'Intermediate',
+                inquiryType: 'workshop',
+                registrationDate: new Date().toISOString()
+            };
+            
+            const debugInfo = document.getElementById('debugInfo');
+            debugInfo.innerHTML = '<div class="debug-info">Sending data:\n' + JSON.stringify(data, null, 2) + '</div>';
+            
+            const resultDiv = document.getElementById('formResult');
+            resultDiv.innerHTML = '<div class="debug-info">Submitting registration...</div>';
+            
+            try {
+                const response = await fetch('register.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                });
+                
+                console.log('Response status:', response.status);
+                console.log('Response headers:', [...response.headers.entries()]);
+                
+                let result;
+                try {
+                    result = await response.json();
+                } catch (jsonError) {
+                    const text = await response.text();
+                    throw new Error('Invalid JSON response: ' + text);
+                }
+                
+                debugInfo.innerHTML += '<div class="debug-info">Response status: ' + response.status + '\nResponse data:\n' + JSON.stringify(result, null, 2) + '</div>';
+                
+                if (result.success) {
+                    resultDiv.innerHTML = '<div class="success">✅ Workshop registration successful!<br>ID: ' + result.id + '<br>Message: ' + result.message + '</div>';
+                } else {
+                    resultDiv.innerHTML = '<div class="error">❌ Registration failed:<br>' + result.message + 
+                        (result.errors ? '<br>Errors: ' + result.errors.join(', ') : '') + '</div>';
+                }
+            } catch (error) {
+                console.error('Registration error:', error);
+                resultDiv.innerHTML = '<div class="error">❌ Network/Server error: ' + error.message + '</div>';
+                debugInfo.innerHTML += '<div class="error">Network error: ' + error.message + '</div>';
+            }
+        });
+        
+        // Auto-check environment on page load
+        window.addEventListener('load', checkEnvironment);
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .form-group { margin: 15px 0; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input, select { width: 300px; padding: 8px; margin-bottom: 10px; }
+        button { background: #667eea; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        .error, .success { padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .error { background: #ffe6e6; color: #d63031; }
+        .success { background: #e6ffe6; color: #00b894; }
+    </style>
+</head>
+<body>
+    <h2>Registration Form Test</h2>
+    
+    <div id="result"></div>
+    
+    <form id="testForm">
+        <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" name="fullName" required>
+        </div>
+        
+        <div class="form-group">
+            <label>Email *</label>
+            <input type="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+            <label>Phone *</label>
+            <input type="tel" name="phone" required>
+        </div>
+        
+        <div class="form-group">
+            <label>Company *</label>
+            <input type="text" name="company" required>
+        </div>
+        
+        <div class="form-group">
+            <label>Position *</label>
+            <select name="position" required>
+                <option value="">Select position</option>
+                <option value="CEO">CEO</option>
+                <option value="CTO">CTO</option>
+                <option value="VP">VP</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label>Inquiry Type</label>
+            <select name="inquiryType">
+                <option value="workshop">Workshop</option>
+                <option value="talktous">Talk to Us</option>
+            </select>
+        </div>
+        
+        <button type="submit">Test Registration</button>
+    </form>
+
+    <script>
+        document.getElementById('testForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const data = {
+                fullName: formData.get('fullName'),
+                email: formData.get('email'),
+                phone: formData.get('phone'),
+                company: formData.get('company'),
+                position: formData.get('position'),
+                inquiryType: formData.get('inquiryType') || 'workshop',
+                registrationDate: new Date().toISOString()
+            };
+            
+            console.log('Sending data:', data);
+            
+            try {
+                const response = await fetch('register.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                console.log('Response:', result);
+                
+                const resultDiv = document.getElementById('result');
+                if (result.success) {
+                    resultDiv.innerHTML = '<div class="success">✅ Success: ' + result.message + '</div>';
+                    this.reset();
+                } else {
+                    resultDiv.innerHTML = '<div class="error">❌ Error: ' + result.message + 
+                        (result.errors ? '<br>Errors: ' + result.errors.join(', ') : '') + '</div>';
+                }
+            } catch (error) {
+                console.error('Network error:', error);
+                document.getElementById('result').innerHTML = '<div class="error">❌ Network error: ' + error.message + '</div>';
+            }
+        });
+    </script>
+</body>
+</html>

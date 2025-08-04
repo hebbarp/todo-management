@@ -1,204 +1,243 @@
 # 🌟 C9 AI - Autonomous AI-Powered Productivity System
 
-> Transform your productivity with Claude & Gemini AI agents that can reason, plan, and execute tasks autonomously using local tools.
+> Transform your productivity with AI agents that understand natural language, run locally for privacy, and execute tasks intelligently.
 
 ## ✨ What is C9 AI?
 
-C9 AI is a command-line interface that brings **autonomous AI agents** to your local development environment. Instead of just chatting with AI, C9 AI allows Claude and Gemini to:
+C9 AI is a revolutionary command-line interface that brings **intelligent AI assistance** to your local environment. Experience the future of productivity with:
 
-- 🧠 **Reason through complex tasks** step by step
-- 🔧 **Execute local tools** and commands autonomously  
-- 🔄 **Iterate and improve** until goals are achieved
-- 📊 **Integrate with your existing workflow** (GitHub, git, npm, etc.)
-- 🤖 **Switch between AI models** for specialized tasks
+- 🧠 **Natural Language Interface** - Talk to your computer like a human assistant
+- 🔒 **Privacy-First Local AI** - Run Phi-3, LLaMA models locally with zero data sharing  
+- ⚡ **Intelligent Task Execution** - From "compile my research paper" to automatic execution
+- 🔄 **Smart Model Switching** - Seamless local ↔ cloud AI based on task complexity
+- 🎯 **Context-Aware Processing** - AI that learns your patterns and preferences
 
-## 🚀 Key Features
+## 🚀 Revolutionary Features
 
-### 🎯 Autonomous Execution
+### 🗣️ Natural Language Interface
 ```bash
-c9ai claude --autonomous "Debug my failing tests and fix all issues"
-```
-Watch Claude analyze, fix, test, and iterate until all tests pass!
+c9ai> compile my research paper
+🧠 AI suggested: @action: compile research_paper.tex
+✅ Executing: pdflatex research_paper.tex
 
-### 🔄 AI Model Switching
-```bash
-c9ai claude "analyze this data"     # Deep reasoning
-c9ai gemini "create a visual summary"  # Creative tasks
-c9ai switch gemini                   # Change default model
+c9ai> make a list of all documents in /Users/me/projects directory  
+🔧 Executing: ls -la "/Users/me/projects"
 ```
 
-### 📋 Enhanced Todo Management
+### 🔒 Privacy-First Local AI
 ```bash
-c9ai todos list                      # GitHub Issues integration
-c9ai claude "execute my high priority todos"  # AI-powered execution
+c9ai models install phi-3          # Download Microsoft Phi-3 (2.2GB)
+c9ai switch local                  # All processing stays on your machine
+c9ai todos add "analyze my data"   # Zero data sent to external APIs
 ```
 
-### 🔧 Local Tool Integration
-- Git operations (status, commit, push)
-- File operations (read, write, list)
-- Development tools (test, build, deploy)
-- Todo management (GitHub Issues)
-- System commands
+### ⚡ Intelligent Todo Management
+```bash
+# Natural language todos that convert to executable actions
+c9ai todos add "compile my research paper"     → @action: compile research.tex
+c9ai todos add "open my budget spreadsheet"   → @action: open budget.xlsx  
+c9ai todos add "search for AI tutorials"      → @action: search AI tutorials
+c9ai todos execute                            # Run selected todos automatically
+```
+
+### 🧠 Smart Model Selection
+```bash
+c9ai switch local    # Use downloaded Phi-3/LLaMA for simple tasks
+c9ai switch claude   # Use cloud AI for complex reasoning
+c9ai switch gemini   # Auto-switches based on task complexity (coming soon)
+```
 
 ## 📦 Installation
 
 ### Prerequisites
 - Node.js 16+ ([Download](https://nodejs.org))
-- Claude CLI ([Installation guide](https://docs.anthropic.com/claude/docs/cli))
-- GitHub CLI for todo management: `brew install gh`
+- Optional: Claude CLI for cloud fallback ([Setup guide](https://docs.anthropic.com/claude/docs/cli))
 
 ### Quick Install
 ```bash
-git clone <repo>
+git clone https://github.com/c9ai/c9ai.git
 cd c9ai
-./install.sh
-```
-
-### Manual Install
-```bash
 npm install
-chmod +x src/index.js
-sudo ln -sf $(pwd)/src/index.js /usr/local/bin/c9ai
+npm run install-global
 ```
 
-## 🎮 Usage
+### Verify Installation
+```bash
+c9ai --version   # Should show 2.0.0
+c9ai models list # Show available local AI models
+```
 
-### Interactive Mode (Recommended)
+## 🎮 Getting Started
+
+### 1. Interactive Mode (Recommended)
 ```bash
 c9ai
 ```
-Launches an interactive shell with AI switching, tool access, and todo management.
+Launches intelligent shell with natural language processing.
 
-### Direct Commands
+### 2. Install Local AI Model (Optional but Recommended)
 ```bash
-# AI Commands
-c9ai claude "analyze my project structure"
-c9ai gemini "create a README for my project" 
-c9ai claude --autonomous "set up a new React project"
-
-# Productivity
-c9ai todos list
-c9ai analytics
-c9ai tools
-
-# Configuration
-c9ai switch gemini
-c9ai config
+c9ai models install phi-3    # Download Microsoft Phi-3 (2.2GB)
+c9ai switch local           # Enable privacy-first local processing
 ```
 
-## 🤖 Autonomous Mode Examples
+### 3. Natural Language Commands
+```bash
+# System commands
+c9ai> list all files in my documents directory
+c9ai> check disk usage
+c9ai> show running processes
+
+# Todo management  
+c9ai> todos add "compile my presentation slides"
+c9ai> todos execute
+
+# Model switching
+c9ai> switch claude    # Use cloud AI
+c9ai> switch local     # Use local AI
+```
+
+## 🤖 Model Management
+
+### Available Models
+```bash
+c9ai models list                    # Show available models
+c9ai models install phi-3          # Microsoft Phi-3 Mini (2.2GB)
+c9ai models install tinyllama      # TinyLLaMA (680MB) - for testing
+c9ai models status                 # Check disk usage and status
+c9ai models remove phi-3           # Free up disk space
+```
+
+### Model Comparison
+| Model | Size | Strengths | Use Cases |
+|-------|------|-----------|-----------|
+| **Phi-3** | 2.2GB | Excellent reasoning, tool use | Perfect for natural language → actions |
+| **TinyLLaMA** | 680MB | Fast, lightweight | Quick testing, simple commands |
+| **Claude** | Cloud API | Advanced reasoning | Complex analysis, coding help |
+| **Gemini** | Cloud API | Creative tasks | Content creation, brainstorming |
+
+## 🎯 Use Cases
 
 ### Software Development
 ```bash
-c9ai claude --autonomous "Fix all failing tests in my project"
+c9ai> compile my TypeScript project
+c9ai> run tests for the authentication module  
+c9ai> list all Python files in the src directory
 ```
-**What happens:**
-1. 📊 Runs test suite to identify failures
-2. 🔍 Analyzes each failing test
-3. 🔧 Fixes code issues one by one
-4. ✅ Re-runs tests until all pass
-5. 📝 Commits fixes with descriptive messages
 
-### Project Management  
+### Document Management
 ```bash
-c9ai claude --autonomous "Review my GitHub issues and complete urgent tasks"
+c9ai> open my quarterly budget spreadsheet
+c9ai> compile my research paper to PDF
+c9ai> search for machine learning papers
 ```
-**What happens:**
-1. 📋 Fetches all open GitHub issues
-2. 🎯 Identifies high-priority tasks
-3. ⚡ Executes tasks using local tools
-4. ✅ Updates issue status automatically
-5. 📊 Provides completion summary
 
-### Documentation
+### System Administration
 ```bash
-c9ai gemini --autonomous "Create comprehensive documentation for my API"
+c9ai> check disk usage on all drives
+c9ai> list all running processes
+c9ai> show files modified in the last week
 ```
-**What happens:**
-1. 📖 Analyzes codebase structure
-2. 🔍 Identifies API endpoints and functions
-3. ✍️ Generates documentation files
-4. 🎨 Creates visual diagrams
-5. 📚 Organizes into cohesive documentation
+
+## 🔧 Advanced Features
+
+### Smart Fallback System
+1. **Local AI First** - Privacy-preserving, fast processing
+2. **Cloud AI Fallback** - Complex tasks automatically routed to Claude/Gemini
+3. **Manual Commands** - Direct @action execution for power users
+
+### Todo Execution Modes
+```bash
+# Manual structured format (power users)
+c9ai todos add "Fix bug @action: compile debug.c"
+
+# Natural language (converts automatically)  
+c9ai todos add "fix the memory leak in my C program"
+
+# Intelligent execution
+c9ai todos execute  # Select and run multiple todos
+```
+
+### Context-Aware Processing
+- Remembers recent commands for better suggestions
+- Learns successful action patterns
+- Adapts to your workflow over time
+
+## 📊 Privacy & Security
+
+### Local Processing
+- **Phi-3/LLaMA models** run entirely on your machine
+- **Zero external API calls** when using local mode
+- **Your data never leaves** your computer
+
+### Intelligent Routing  
+- **Simple tasks** → Local AI (private, fast)
+- **Complex analysis** → Cloud AI (with your explicit permission)
+- **Full transparency** - always shows which model is being used
 
 ## 🛠️ Configuration
 
-### AI Model Setup
-1. **Claude CLI**: Follow [official setup guide](https://docs.anthropic.com/claude/docs/cli)
-2. **Gemini CLI**: Install with `npm install -g @google/generative-ai-cli`
-
-### Tool Registry
-C9 AI automatically detects and registers available tools:
-- Development: npm, git, python, etc.
-- File operations: read, write, list, search
-- Communication: email, slack (with setup)
-- Custom scripts: Add your own tools
-
-View available tools: `c9ai tools`
-
-## 📊 Analytics & Insights
-
+### Model Settings
 ```bash
-c9ai analytics
-```
-Track your AI-powered productivity:
-- Command usage patterns
-- Task completion rates  
-- Time savings from automation
-- AI model effectiveness
-
-## 🔧 Extending C9 AI
-
-### Custom Tools
-Add your own tools to `~/.c9ai/tools/custom.json`:
-```json
-{
-  "deploy": {
-    "command": "npm run deploy",
-    "description": "Deploy to production"
-  }
-}
+c9ai config                    # Show current configuration
+c9ai switch local             # Set default to local AI
+c9ai switch claude            # Set default to Claude
 ```
 
-### Scripts
-Create automation scripts in `~/.c9ai/scripts/`:
-```javascript
-// morning-standup.js
-module.exports = async (tools) => {
-  await tools.git.status();
-  await tools.todos.list();
-  await tools.ai.claude("summarize my progress");
-};
-```
+### File Locations
+- **Models**: `~/.c9ai/models/` - Downloaded AI models
+- **Config**: `~/.c9ai/config.json` - User preferences  
+- **Scripts**: `~/.c9ai/scripts/` - Custom automation tools
+- **Logs**: `~/.c9ai/logs/` - Interaction history
 
-## 🎪 Workshop Demo
+## 🎪 Perfect for Workshops & Demos
 
-Perfect for demonstrating:
-- **Autonomous AI execution** with real tasks
-- **Multi-model AI switching** for specialized work  
-- **Local tool integration** with existing workflows
-- **Productivity enhancement** through AI automation
+### Wow Factor Demonstrations
+1. **"Compile my research paper"** → Watch natural language become `pdflatex` execution
+2. **"List documents in my projects folder"** → See AI convert to `ls -la` commands  
+3. **Switch models in real-time** → Show local vs cloud processing
+4. **Privacy showcase** → All AI processing running locally
 
-### Demo Scenarios
-1. **"Fix my broken tests"** - Watch AI debug and repair automatically
-2. **"Plan my day"** - AI analyzes todos and creates action plan
-3. **"Create documentation"** - AI examines code and generates docs
-4. **"Deploy my project"** - AI handles build, test, and deployment
+### Technical Audience Appeal
+- **Show actual code** - Open source, inspectable Node.js
+- **Demonstrate architecture** - Local AI + cloud fallback + pattern recognition
+- **Performance metrics** - Local processing speed vs cloud latency
+- **Privacy story** - Zero external API calls in local mode
+
+## 🚀 Version 2.0.0 Features
+
+### ✨ New in This Release
+- **🧠 Local LLM Support** - Phi-3, TinyLLaMA, and LLaMA integration
+- **🗣️ Natural Language Interface** - Talk naturally to your CLI
+- **🔒 Privacy-First Design** - Optional local-only processing
+- **⚡ Smart Model Switching** - Automatic local ↔ cloud routing
+- **🎯 Intelligent Todo Processing** - Plain English → executable actions
+- **🔧 System Command Understanding** - Natural language → shell commands
+
+### Coming Soon (Phase 2)
+- **🧠 Learning System** - AI that improves with your usage patterns
+- **📊 Analytics Dashboard** - Personal productivity insights
+- **🎯 Context-Aware Suggestions** - Smarter recommendations
+- **⚙️ Auto-Optimization** - Self-improving workflow automation
 
 ## 🤝 Contributing
 
-C9 AI is designed to be extensible:
-- Add new AI providers
-- Create custom tool integrations  
-- Build workflow automations
-- Enhance autonomous execution capabilities
+C9 AI is designed for extensibility:
+- **Add new AI models** - Support for more local LLMs
+- **Create custom actions** - Extend the @action system
+- **Build integrations** - Connect with your favorite tools
+- **Improve intelligence** - Better natural language understanding
 
 ## 📄 License
 
-MIT License - Build amazing AI-powered productivity tools!
+MIT License - Build the future of AI-powered productivity!
 
 ---
 
-**Ready to experience autonomous AI productivity?** 🚀
+**🚀 Ready to experience the future of productivity?**
 
-Start with: `c9ai claude "help me be more productive today"`
+Start with: `c9ai models install phi-3 && c9ai switch local`
+
+Then try: `c9ai> compile my presentation slides`
+
+*Experience AI that understands, acts, and respects your privacy.*

@@ -1,26 +1,7 @@
-# Gemini Todo Management
+# My Actionable Todo List
 
-This document outlines how to manage and execute todos for this project.
-
-## Checking Todos
-
-To check for open todos, I need to use the `gh` (GitHub CLI) tool.
-
-1.  **Check for `gh`:**
-    ```bash
-    command -v gh
-    ```
-
-2.  **List open todos:**
-    ```bash
-    gh issue list --repo hebbarp/todo-management --state open
-    ```
-
-3.  **Get a summary of open todos:**
-    ```bash
-    gh issue list --repo hebbarp/todo-management --state open --json number | jq '. | length'
-    ```
-
-## Executing Todos
-
-The user mentioned "execute my open todos" or #eot. The script `check-todos.sh` suggests the command `execute my open todos`. I will note this as the command to execute todos.
+- [ ] Compile the swarm detection proposal @action: pdflatex ai_swarm_detection_proposal.tex @project: research
+- [ ] Review the latest pull requests @action: open https://github.com/hebbarp/todo-management/pulls @project: c9ai
+- [ ] Run the weekly cleanup script @action: bash ~/todo-management/mac_linux/cleanup-weekly.sh @priority: medium
+- [ ] Finalize the budget report @due: 2025-08-15 @priority: high
+- [ ] Just a simple task with no action
